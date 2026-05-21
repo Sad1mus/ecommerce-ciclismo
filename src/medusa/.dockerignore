@@ -1,0 +1,9 @@
+node_modules/
+**/node_modules/
+apps/backend/.medusa/
+**/.medusa/
+**/dist/
+.git/
+.env
+.env.*
+*.log

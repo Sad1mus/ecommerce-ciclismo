@@ -78,7 +78,7 @@ mockeado y lógica de agentes cubiertos por tests. Tests pasan. Commit en develo
 reales a pagos; anti-alucinación.
 **Evidencia:** Commit 65b60ba en develop (pusheado). `python -m pytest -q` → 26 passed, exit 0. Incluye test_voice.py (pipeline audio→texto→comando con STT/Whisper mockeado: routing, datos reales vía cliente, STT caído → "no entendí el audio" sin inventar) y test_agents.py (VentasAgent/LogisticaAgent/ReportesAgent: precio+stock reales, suma de unidades calculada de la API, anti-alucinación ante fallo). voice.py usa WhisperTranscriber con import diferido (OPENAI_API_KEY solo runtime); bot.py integra MessageHandler de voz + /ventas /logistica /reportes.
 
-## [in-progress] 5. Fase 4 — Pagos Wompi/ePayco (CÓDIGO LISTO, NO ACTIVADO)
+## [done] 5. Fase 4 — Pagos Wompi/ePayco (CÓDIGO LISTO, NO ACTIVADO)
 **Condición:** integración de pagos colombianos (Wompi + ePayco) programada como
 proveedor en sandbox/mock, con build y tests verdes, y un documento de activación
 que lista los secretos que faltan. NO se ejecutan cobros reales ni hay llaves reales
@@ -89,9 +89,9 @@ en el repo. Commit en develop + push.
 - no hay llaves reales commiteadas: `git grep -nE "WOMPI_PRIVATE|EPAYCO_PRIVATE" -- '*.env' || echo "sin llaves reales"`
 - `git log --oneline -1` muestra el commit de Fase 4 en develop
 **No tocar:** NO cobros reales, NO llaves reales en git, todo en modo sandbox/desactivado.
-**Evidencia:**
+**Evidencia:** Commit e9ab093 en develop (pusheado). `src/payments/` con WompiProvider y EpaycoProvider (sandbox=True por defecto, salvaguarda `_refuse_real` impide cobro sin ACTIVAR_PAGOS+secretos). `pytest -q` → 10 passed, exit 0 (sandbox sin cobro real, decline simulado, no-activable sin secretos). `test -f docs/activar-pagos.md` → OK (lista secretos faltantes y pasos). `git grep WOMPI_PRIVATE|EPAYCO_PRIVATE -- '*.env'` → "sin llaves reales".
 
-## [pending] 6. Fase 5 — Deploy Docker para VPS (CÓDIGO LISTO, NO DESPLEGADO)
+## [in-progress] 6. Fase 5 — Deploy Docker para VPS (CÓDIGO LISTO, NO DESPLEGADO)
 **Condición:** `docker-compose.prod.yml` + Dockerfiles (medusa, bot, storefront) +
 `nginx.conf` + script de deploy + `docker-compose.prod.yml` válido y las imágenes
 construyen localmente. Documento de deploy a VPS. NO se despliega a ningún servidor real.

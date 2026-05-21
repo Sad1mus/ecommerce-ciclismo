@@ -1,0 +1,89 @@
+# Stack de PRODUCCION para VPS — Ecommerce Ciclismo.
+# CODIGO LISTO, NO DESPLEGADO: este compose se valida y buildea localmente;
+# no se ejecuta contra ningun servidor real. Los secretos se inyectan por .env
+# del VPS (NUNCA se commitean).
+services:
+  postgres:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-ciclismo}
+      POSTGRES_USER: ${DB_USER:-ciclismo}
+      POSTGRES_PASSWORD: ${DB_PASS:?define DB_PASS en el .env del VPS}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-ciclismo}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  medusa:
+    build:
+      context: ./src/medusa
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://${DB_USER:-ciclismo}:${DB_PASS}@postgres:5432/${DB_NAME:-ciclismo}
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET:?define JWT_SECRET}
+      COOKIE_SECRET: ${COOKIE_SECRET:?define COOKIE_SECRET}
+      STORE_CORS: ${STORE_CORS:-http://localhost}
+      ADMIN_CORS: ${ADMIN_CORS:-http://localhost}
+      AUTH_CORS: ${AUTH_CORS:-http://localhost}
+    expose:
+      - "9001"
+
+  storefront:
+    build:
+      context: ./src/storefront
+    restart: unless-stopped
+    depends_on:
+      - medusa
+    environment:
+      MEDUSA_BACKEND_URL: ${MEDUSA_BACKEND_URL:-http://medusa:9001}
+      MEDUSA_PUBLISHABLE_KEY: ${MEDUSA_PUBLISHABLE_KEY}
+      MEDUSA_REGION_ID: ${MEDUSA_REGION_ID}
+    expose:
+      - "8000"
+
+  bot:
+    build:
+      context: ./src/bot
+    restart: unless-stopped
+    depends_on:
+      - medusa
+    environment:
+      MEDUSA_BACKEND_URL: ${MEDUSA_BACKEND_URL:-http://medusa:9001}
+      MEDUSA_PUBLISHABLE_KEY: ${MEDUSA_PUBLISHABLE_KEY}
+      MEDUSA_REGION_ID: ${MEDUSA_REGION_ID}
+      MEDUSA_ADMIN_TOKEN: ${MEDUSA_ADMIN_TOKEN}
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      - storefront
+      - medusa
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+volumes:
+  postgres_data:
