@@ -66,7 +66,7 @@ responde "dato no disponible" en vez de inventar. Tests pasan. Commit en develop
 obligatoria; sin secretos en el repo.
 **Evidencia:** Commit d534c1f en develop (pusheado). `python -m pytest -q` → 9 passed, exit 0. Tests con Medusa mockeado prueban: (a) /stock refleja el stock de la API ("8 unidades"), (b) FailingClient → "dato no disponible" sin dígitos inventados, (c) salida sin emojis/tablas y ≤10 líneas. Demo real contra Medusa: /stock candado y /precio bomba devuelven stock y precios reales de la API. Token Telegram solo por env (import de telegram diferido); .venv no commiteado.
 
-## [in-progress] 4. Fase 3 — Voz (Whisper) + agentes ventas/logística/reportes
+## [done] 4. Fase 3 — Voz (Whisper) + agentes ventas/logística/reportes
 **Condición:** handler de voz que transcribe audio→texto→comando (Whisper) integrado
 al bot, más los agentes de ventas, logística y reportes. Pipeline de voz con STT
 mockeado y lógica de agentes cubiertos por tests. Tests pasan. Commit en develop + push.
@@ -76,9 +76,9 @@ mockeado y lógica de agentes cubiertos por tests. Tests pasan. Commit en develo
 - `git log --oneline -1` muestra el commit de Fase 3 en develop
 **No tocar:** OPENAI_API_KEY no requerido (STT mockeado en tests); sin llamadas
 reales a pagos; anti-alucinación.
-**Evidencia:**
+**Evidencia:** Commit 65b60ba en develop (pusheado). `python -m pytest -q` → 26 passed, exit 0. Incluye test_voice.py (pipeline audio→texto→comando con STT/Whisper mockeado: routing, datos reales vía cliente, STT caído → "no entendí el audio" sin inventar) y test_agents.py (VentasAgent/LogisticaAgent/ReportesAgent: precio+stock reales, suma de unidades calculada de la API, anti-alucinación ante fallo). voice.py usa WhisperTranscriber con import diferido (OPENAI_API_KEY solo runtime); bot.py integra MessageHandler de voz + /ventas /logistica /reportes.
 
-## [pending] 5. Fase 4 — Pagos Wompi/ePayco (CÓDIGO LISTO, NO ACTIVADO)
+## [in-progress] 5. Fase 4 — Pagos Wompi/ePayco (CÓDIGO LISTO, NO ACTIVADO)
 **Condición:** integración de pagos colombianos (Wompi + ePayco) programada como
 proveedor en sandbox/mock, con build y tests verdes, y un documento de activación
 que lista los secretos que faltan. NO se ejecutan cobros reales ni hay llaves reales
