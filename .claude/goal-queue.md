@@ -37,7 +37,7 @@ sin node_modules), autor Sad1mus, conectado a un repo PRIVADO
 no borrar los documentos ni el CSV existentes; no exponer tokens.
 **Evidencia:** Commit inicial dfefe97 (autor Sad1mus <jordycapital@gmail.com>), 43 archivos sin node_modules/.env/inventario.json. Repo privado github.com/Sad1mus/ecommerce-ciclismo (isPrivate=true), rama develop pusheada (ls-remote OK). Sin .git anidado en src/medusa. status limpio.
 
-## [in-progress] 2. Fase 1 — Storefront Next.js accesible
+## [done] 2. Fase 1 — Storefront Next.js accesible
 **Condición:** `src/storefront` (Next.js) lista el catálogo real consumiendo la
 Store API de Medusa (con publishable key creada y ligada al sales channel), es
 accesible (navegación por teclado, roles/labels ARIA, contraste AA), y compila.
@@ -50,9 +50,9 @@ Los precios/stock vienen de la API (no hardcode). Commit en develop + push.
 - `git -C . log --oneline -1` muestra el commit de Fase 1 pusheado a develop
 **No tocar:** no romper el backend Medusa de Fase 0; no hardcodear precios/stock;
 solo añadir a src/medusa lo mínimo (publishable key / CORS).
-**Evidencia:**
+**Evidencia:** Commit 7cd123b en develop (pusheado, ls-remote OK). `npm run build` exit 0 (ruta `/` dinámica ƒ). Smoke: storefront en :8000 devuelve HTTP 200 y HTML con productos reales ("Candado manguera espiral" $14.500, 8 en stock; "Forro gel MTB antipros" $19.500, 43 en stock) — precios y stock servidos por la Store API de Medusa (publishable key pk_1e37… ligada al sales channel "Tienda Ciclismo", region COP), nunca hardcode. `npx eslint .` exit 0 con eslint-plugin-jsx-a11y (34 reglas activas).
 
-## [pending] 3. Fase 2 — Bot Telegram texto (anti-alucinación)
+## [in-progress] 3. Fase 2 — Bot Telegram texto (anti-alucinación)
 **Condición:** `src/bot` (Python) con comandos `/stock`, `/precio`, `/pedidos` que
 consultan SIEMPRE la API/DB de Medusa (nunca inventan); respuestas texto-only aptas
 para lector de pantalla (sin emojis ni tablas, máx ~10 líneas); si la API falla,
