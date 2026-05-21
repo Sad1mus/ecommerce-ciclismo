@@ -1,0 +1,105 @@
+/* Paleta con contraste AA sobre blanco:
+   texto #1a1a1a sobre #ffffff  -> ratio ~16:1
+   acento #0b5d1e (verde) sobre #ffffff -> ratio ~6.3:1 (AA para texto normal) */
+:root {
+  --fg: #1a1a1a;
+  --bg: #ffffff;
+  --acento: #0b5d1e;
+  --borde: #555555;
+  --aviso-bg: #fdecea;
+  --aviso-fg: #7a1c12;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--acento);
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--acento);
+  outline-offset: 2px;
+}
+
+header,
+footer {
+  padding: 1rem;
+  border-bottom: 2px solid var(--borde);
+}
+footer {
+  border-bottom: none;
+  border-top: 2px solid var(--borde);
+  margin-top: 2rem;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--acento);
+}
+
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+.aviso {
+  background: var(--aviso-bg);
+  color: var(--aviso-fg);
+  border: 2px solid var(--aviso-fg);
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+}
+
+.catalogo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+
+.producto {
+  border: 2px solid var(--borde);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.producto-titulo {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.etiqueta {
+  font-weight: 700;
+}
+
+.producto-precio,
+.producto-stock {
+  margin: 0.25rem 0;
+}

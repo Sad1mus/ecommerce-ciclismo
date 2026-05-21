@@ -21,7 +21,7 @@ Reglas:
   * NO commitear node_modules, .env, ni secretos reales.
 -->
 
-## [in-progress] 1. Git + repositorio privado en GitHub (Sad1mus)
+## [done] 1. Git + repositorio privado en GitHub (Sad1mus)
 **Condición:** `/home/sadimus/Documentos/Fof` es un repo git con un commit inicial
 que incluye TODO el trabajo de Fase 0 (docker-compose, data/, src/medusa código —
 sin node_modules), autor Sad1mus, conectado a un repo PRIVADO
@@ -35,9 +35,9 @@ sin node_modules), autor Sad1mus, conectado a un repo PRIVADO
 - `git -C /home/sadimus/Documentos/Fof ls-remote --heads origin develop` no vacío
 **No tocar:** no pushear a `main`; no trackear node_modules/.env/data/inventario.json;
 no borrar los documentos ni el CSV existentes; no exponer tokens.
-**Evidencia:**
+**Evidencia:** Commit inicial dfefe97 (autor Sad1mus <jordycapital@gmail.com>), 43 archivos sin node_modules/.env/inventario.json. Repo privado github.com/Sad1mus/ecommerce-ciclismo (isPrivate=true), rama develop pusheada (ls-remote OK). Sin .git anidado en src/medusa. status limpio.
 
-## [pending] 2. Fase 1 — Storefront Next.js accesible
+## [in-progress] 2. Fase 1 — Storefront Next.js accesible
 **Condición:** `src/storefront` (Next.js) lista el catálogo real consumiendo la
 Store API de Medusa (con publishable key creada y ligada al sales channel), es
 accesible (navegación por teclado, roles/labels ARIA, contraste AA), y compila.
