@@ -1,0 +1,38 @@
+# Stack LEAN — Fase 0: solo la capa de datos.
+# MedusaJS, storefront, bot, litellm, n8n, nginx, monitor se agregan en fases
+# posteriores (ver docker-compose de produccion en CICLISMO-JARVIS doc, sec 6).
+services:
+  # PostgreSQL — fuente unica de verdad (stock, precios, pedidos)
+  postgres:
+    image: postgres:15-alpine
+    container_name: ciclismo-postgres
+    restart: unless-stopped
+    ports:
+      - "5433:5432"          # host 5433 (5432 lo usa el stack etherlabx)
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=ciclismo
+      - POSTGRES_USER=ciclismo
+      - POSTGRES_PASSWORD=${DB_PASS:-ciclismo_dev}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ciclismo"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis — cache y locks de stock
+  redis:
+    image: redis:7-alpine
+    container_name: ciclismo-redis
+    restart: unless-stopped
+    ports:
+      - "6380:6379"          # host 6380 (6379 lo usa el stack etherlabx)
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

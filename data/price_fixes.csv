@@ -1,0 +1,42 @@
+# Correcciones de precio para variantes que vienen en $0 en el inventario.
+# Editable a mano. El normalizador aplica la PRIMERA fila cuyo patron
+# (subcadena, sin distinguir mayusculas) aparezca en el nombre del producto.
+#
+# source = "recuperado"  -> el precio lo escribio el admin dentro del nombre (no inventado)
+#          "estimado"    -> precio puesto por nosotros; el admin debe confirmarlo por el bot
+#
+# Para anexar un inventario nuevo: re-corre normalize_inventory.py; esta tabla
+# se reutiliza tal cual. Borra o ajusta filas cuando tengas precios reales.
+match_nombre,precio_cop,source,nota
+Kit Reparación Tubeless,62500,recuperado,precio escrito en el nombre original
+Aros R26,65500,recuperado,nombre traia R26 65500 / R27.5 65500 / R29 69500 (se usa R26)
+Neumatico Amerrican,7900,recuperado,nombre traia R26 7900 / R27 8200 (se usa R26)
+Postes de silla,22500,recuperado,precio escrito en el nombre (bck 802 ... 22500)
+Pitillos,4500,estimado,accesorio pequeno por color - CONFIRMAR
+1 Gris,4500,estimado,color de Pitillos - CONFIRMAR
+2 Amarillo,4500,estimado,color de Pitillos - CONFIRMAR
+3 Azul,4500,estimado,color de Pitillos - CONFIRMAR
+4 negro,4500,estimado,color de Pitillos - CONFIRMAR
+5 Dorado,4500,estimado,color de Pitillos - CONFIRMAR
+6 amarillo,4500,estimado,color de Pitillos - CONFIRMAR
+7 Morado,4500,estimado,color de Pitillos - CONFIRMAR
+8 Azul claro,4500,estimado,color de Pitillos - CONFIRMAR
+9 Rojo,4500,estimado,color de Pitillos - CONFIRMAR
+10 Naranja,4500,estimado,color de Pitillos - CONFIRMAR
+11 Fucsia,4500,estimado,color de Pitillos - CONFIRMAR
+12 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+13 Blanco,4500,estimado,color de Pitillos - CONFIRMAR
+14 Amarillo,4500,estimado,color de Pitillos - CONFIRMAR
+15 Rosado,4500,estimado,color de Pitillos - CONFIRMAR
+16 Violeta,4500,estimado,color de Pitillos - CONFIRMAR
+17 Azul,4500,estimado,color de Pitillos - CONFIRMAR
+18 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+19 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+20 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+21 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+22 Magenta,4500,estimado,color de Pitillos - CONFIRMAR
+23 Verde,4500,estimado,color de Pitillos - CONFIRMAR
+24 Psicodelico,4500,estimado,color de Pitillos - CONFIRMAR
+25 Uva,4500,estimado,color de Pitillos - CONFIRMAR
+26 Bronce,4500,estimado,color de Pitillos - CONFIRMAR
+Espiga rebeld,18000,estimado,espiga/direccion - CONFIRMAR
