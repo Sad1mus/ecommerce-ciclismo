@@ -91,7 +91,7 @@ en el repo. Commit en develop + push.
 **No tocar:** NO cobros reales, NO llaves reales en git, todo en modo sandbox/desactivado.
 **Evidencia:** Commit e9ab093 en develop (pusheado). `src/payments/` con WompiProvider y EpaycoProvider (sandbox=True por defecto, salvaguarda `_refuse_real` impide cobro sin ACTIVAR_PAGOS+secretos). `pytest -q` → 10 passed, exit 0 (sandbox sin cobro real, decline simulado, no-activable sin secretos). `test -f docs/activar-pagos.md` → OK (lista secretos faltantes y pasos). `git grep WOMPI_PRIVATE|EPAYCO_PRIVATE -- '*.env'` → "sin llaves reales".
 
-## [in-progress] 6. Fase 5 — Deploy Docker para VPS (CÓDIGO LISTO, NO DESPLEGADO)
+## [done] 6. Fase 5 — Deploy Docker para VPS (CÓDIGO LISTO, NO DESPLEGADO)
 **Condición:** `docker-compose.prod.yml` + Dockerfiles (medusa, bot, storefront) +
 `nginx.conf` + script de deploy + `docker-compose.prod.yml` válido y las imágenes
 construyen localmente. Documento de deploy a VPS. NO se despliega a ningún servidor real.
@@ -101,4 +101,4 @@ construyen localmente. Documento de deploy a VPS. NO se despliega a ningún serv
 - `test -f docs/deploy-vps.md && echo OK` imprime OK
 - `git log --oneline -1` muestra el commit de Fase 5 en develop
 **No tocar:** NO conectar a VPS real, NO secretos reales; solo validar/buildear localmente.
-**Evidencia:**
+**Evidencia:** Commit 692692e en develop (pusheado). `docker compose -f docker-compose.prod.yml config -q` → exit 0. `docker build` de las 3 imágenes → exit 0 (ciclismo-bot 243MB, ciclismo-storefront 223MB, ciclismo-medusa 1.27GB). `test -f docs/deploy-vps.md` → OK. Incluye nginx.conf (reverse proxy), scripts/deploy.sh y storefront en modo standalone. No se desplegó a ningún servidor; secretos solo vía .env del VPS.
