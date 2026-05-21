@@ -53,7 +53,7 @@ const ImageOrPlaceholder = ({
   return image ? (
     <Image
       src={image}
-      alt="Thumbnail"
+      alt="Miniatura"
       className="absolute inset-0 object-cover object-center"
       draggable={false}
       quality={50}

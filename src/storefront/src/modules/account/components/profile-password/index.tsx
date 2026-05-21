@@ -15,7 +15,7 @@ const ProfilePassword: React.FC<MyInformationProps> = ({ customer }) => {
 
   // TODO: Add support for password updates
   const updatePassword = async () => {
-    toast.info("Password update is not implemented")
+    toast.info("La actualización de contraseña no está implementada")
   }
 
   const clearState = () => {
@@ -29,9 +29,9 @@ const ProfilePassword: React.FC<MyInformationProps> = ({ customer }) => {
       className="w-full"
     >
       <AccountInfo
-        label="Password"
+        label="Contraseña"
         currentInfo={
-          <span>The password is not shown for security reasons</span>
+          <span>La contraseña no se muestra por motivos de seguridad</span>
         }
         isSuccess={successState}
         isError={false}
@@ -41,21 +41,21 @@ const ProfilePassword: React.FC<MyInformationProps> = ({ customer }) => {
       >
         <div className="grid grid-cols-2 gap-4">
           <Input
-            label="Old password"
+            label="Contraseña actual"
             name="old_password"
             required
             type="password"
             data-testid="old-password-input"
           />
           <Input
-            label="New password"
+            label="Nueva contraseña"
             type="password"
             name="new_password"
             required
             data-testid="new-password-input"
           />
           <Input
-            label="Confirm password"
+            label="Confirmar contraseña"
             type="password"
             name="confirm_password"
             required

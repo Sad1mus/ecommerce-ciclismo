@@ -6,9 +6,9 @@ import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Ciclismo Store | Tienda de ciclismo y MTB",
   description:
-    "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+    "Tu tienda en línea de ciclismo y MTB: componentes, accesorios y todo para tu bicicleta.",
 }
 
 export default async function Home(props: {
