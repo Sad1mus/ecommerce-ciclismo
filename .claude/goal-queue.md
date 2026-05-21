@@ -52,7 +52,7 @@ Los precios/stock vienen de la API (no hardcode). Commit en develop + push.
 solo añadir a src/medusa lo mínimo (publishable key / CORS).
 **Evidencia:** Commit 7cd123b en develop (pusheado, ls-remote OK). `npm run build` exit 0 (ruta `/` dinámica ƒ). Smoke: storefront en :8000 devuelve HTTP 200 y HTML con productos reales ("Candado manguera espiral" $14.500, 8 en stock; "Forro gel MTB antipros" $19.500, 43 en stock) — precios y stock servidos por la Store API de Medusa (publishable key pk_1e37… ligada al sales channel "Tienda Ciclismo", region COP), nunca hardcode. `npx eslint .` exit 0 con eslint-plugin-jsx-a11y (34 reglas activas).
 
-## [in-progress] 3. Fase 2 — Bot Telegram texto (anti-alucinación)
+## [done] 3. Fase 2 — Bot Telegram texto (anti-alucinación)
 **Condición:** `src/bot` (Python) con comandos `/stock`, `/precio`, `/pedidos` que
 consultan SIEMPRE la API/DB de Medusa (nunca inventan); respuestas texto-only aptas
 para lector de pantalla (sin emojis ni tablas, máx ~10 líneas); si la API falla,
@@ -64,9 +64,9 @@ responde "dato no disponible" en vez de inventar. Tests pasan. Commit en develop
 - `git log --oneline -1` muestra el commit de Fase 2 en develop
 **No tocar:** no requiere TELEGRAM_BOT_TOKEN real para los tests; anti-alucinación
 obligatoria; sin secretos en el repo.
-**Evidencia:**
+**Evidencia:** Commit d534c1f en develop (pusheado). `python -m pytest -q` → 9 passed, exit 0. Tests con Medusa mockeado prueban: (a) /stock refleja el stock de la API ("8 unidades"), (b) FailingClient → "dato no disponible" sin dígitos inventados, (c) salida sin emojis/tablas y ≤10 líneas. Demo real contra Medusa: /stock candado y /precio bomba devuelven stock y precios reales de la API. Token Telegram solo por env (import de telegram diferido); .venv no commiteado.
 
-## [pending] 4. Fase 3 — Voz (Whisper) + agentes ventas/logística/reportes
+## [in-progress] 4. Fase 3 — Voz (Whisper) + agentes ventas/logística/reportes
 **Condición:** handler de voz que transcribe audio→texto→comando (Whisper) integrado
 al bot, más los agentes de ventas, logística y reportes. Pipeline de voz con STT
 mockeado y lógica de agentes cubiertos por tests. Tests pasan. Commit en develop + push.

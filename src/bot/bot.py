@@ -17,7 +17,9 @@ from __future__ import annotations
 import os
 
 import handlers
+from agents import LogisticaAgent, ReportesAgent, VentasAgent
 from medusa_client import MedusaClient
+from voice import VoicePipeline, WhisperTranscriber
 
 
 def build_client() -> MedusaClient:
@@ -37,9 +39,15 @@ def main() -> None:
         Application,
         CommandHandler,
         ContextTypes,
+        MessageHandler,
+        filters,
     )
 
     client = build_client()
+    ventas = VentasAgent(client)
+    logistica = LogisticaAgent(client)
+    reportes = ReportesAgent(client)
+    voz = VoicePipeline(WhisperTranscriber(), client)
 
     async def stock(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         query = " ".join(context.args) if context.args else ""
@@ -52,10 +60,31 @@ def main() -> None:
     async def pedidos(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text(handlers.handle_pedidos(client))
 
+    async def cmd_ventas(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        query = " ".join(context.args) if context.args else ""
+        await update.message.reply_text(ventas.consultar(query))
+
+    async def cmd_logistica(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        await update.message.reply_text(logistica.estado_pedidos())
+
+    async def cmd_reportes(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        query = " ".join(context.args) if context.args else ""
+        await update.message.reply_text(reportes.resumen(query))
+
+    async def on_voice(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        # Descarga el audio y lo pasa por el pipeline de voz (Whisper -> comando).
+        archivo = await context.bot.get_file(update.message.voice.file_id)
+        audio = bytes(await archivo.download_as_bytearray())
+        await update.message.reply_text(voz.process(audio))
+
     app = Application.builder().token(token).build()
     app.add_handler(CommandHandler("stock", stock))
     app.add_handler(CommandHandler("precio", precio))
     app.add_handler(CommandHandler("pedidos", pedidos))
+    app.add_handler(CommandHandler("ventas", cmd_ventas))
+    app.add_handler(CommandHandler("logistica", cmd_logistica))
+    app.add_handler(CommandHandler("reportes", cmd_reportes))
+    app.add_handler(MessageHandler(filters.VOICE, on_voice))
     app.run_polling()
 
 
