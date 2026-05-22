@@ -38,10 +38,18 @@ curl -s -b "$CJ" -c "$CJ" -L -o "$CJ".cand "$SF/$CC/categories/candados"
 nprod=$( { grep -oE "Candado[^\"<]{0,30}" "$CJ".cand || true; } | sort -u | wc -l)
 echo "   títulos 'Candado*' distintos en la página: $nprod"
 
-if [ "$faltan" -eq 0 ] && [ "$vis" -eq 0 ] && [ "$nprod" -ge 1 ]; then
+echo "== Imágenes reales del backend (Fase B) =="
+# next/image encodea la url del backend: /_next/image?url=...9001%2Fstatic...
+curl -s -b "$CJ" -c "$CJ" -L -o "$CJ".prod "$SF/$CC/products/candado-manguera-espiral"
+imgprod=$( { grep -oE "9001%2Fstatic" "$CJ".prod || true; } | wc -l)
+imglist=$( { grep -oE "9001%2Fstatic" "$CJ".cand || true; } | wc -l)
+echo "   <img> backend en página CL128: $imgprod ; en listado Candados: $imglist"
+
+if [ "$faltan" -eq 0 ] && [ "$vis" -eq 0 ] && [ "$nprod" -ge 1 ] \
+   && [ "$imgprod" -ge 1 ] && [ "$imglist" -ge 1 ]; then
   echo "SMOKE OK"
 else
-  echo "SMOKE FALLA (faltan=$faltan codigos=$vis productos=$nprod)"; exit 1
+  echo "SMOKE FALLA (faltan=$faltan codigos=$vis productos=$nprod imgprod=$imgprod imglist=$imglist)"; exit 1
 fi
 
 cat <<'NOTE'
