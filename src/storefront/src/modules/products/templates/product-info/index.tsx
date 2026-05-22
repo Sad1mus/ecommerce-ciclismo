@@ -19,8 +19,8 @@ const ProductInfo = ({ product }: ProductInfoProps) => {
           </LocalizedClientLink>
         )}
         <Heading
-          level="h2"
-          className="text-3xl leading-10 text-ui-fg-base"
+          level="h1"
+          className="font-display text-3xl leading-10 text-ui-fg-base"
           data-testid="product-title"
         >
           {product.title}

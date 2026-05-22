@@ -80,13 +80,12 @@ const CartDropdown = ({
       onMouseLeave={close}
     >
       <Popover className="relative h-full">
-        <PopoverButton className="h-full">
-          <LocalizedClientLink
-            className="hover:text-ui-fg-base"
-            href="/cart"
-            data-testid="nav-cart-link"
-          >{`Carrito (${totalItems})`}</LocalizedClientLink>
-        </PopoverButton>
+        <PopoverButton
+          as={LocalizedClientLink}
+          href="/cart"
+          className="h-full flex items-center hover:text-brand-orange transition-colors"
+          data-testid="nav-cart-link"
+        >{`Carrito (${totalItems})`}</PopoverButton>
         <Transition
           show={cartDropdownOpen}
           as={Fragment}

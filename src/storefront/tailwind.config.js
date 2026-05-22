@@ -34,6 +34,17 @@ module.exports = {
           80: "#1F2937",
           90: "#111827",
         },
+        // Marca deportiva — ciclismo/MTB. Acento neón naranja + lima.
+        // Contrastes verificados AA: naranja/lima como texto SOLO sobre fondo oscuro,
+        // o como fondo de botón con texto negro.
+        brand: {
+          ink: "#0B0B0C",
+          coal: "#141417",
+          steel: "#26262B",
+          orange: "#FF6A00",
+          "orange-dark": "#E55F00",
+          lime: "#C6FF00",
+        },
       },
       borderRadius: {
         none: "0px",
@@ -60,6 +71,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "var(--font-inter)",
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -67,6 +79,15 @@ module.exports = {
           "Roboto",
           "Helvetica Neue",
           "Ubuntu",
+          "sans-serif",
+        ],
+        // Tipografía con carácter para títulos/marca (condensada y enérgica)
+        display: [
+          "var(--font-oswald)",
+          "Oswald",
+          "Impact",
+          "Haettenschweiler",
+          "Arial Narrow",
           "sans-serif",
         ],
       },

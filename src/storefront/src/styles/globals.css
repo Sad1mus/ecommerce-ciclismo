@@ -58,6 +58,27 @@
     @apply px-4 py-2 border border-black rounded-full hover:bg-black hover:text-white transition-colors duration-200 ease-in;
   }
 
+  /* === Tema deportivo === */
+  .font-display {
+    font-family: var(--font-oswald), "Oswald", "Impact", "Arial Narrow",
+      sans-serif;
+  }
+
+  /* Botón de acento: fondo naranja neón + texto negro (contraste AA 6.85:1) */
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 bg-brand-orange text-brand-ink font-display font-semibold uppercase tracking-wide px-6 py-3 rounded-rounded transition-colors duration-150 hover:bg-brand-orange-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-orange;
+  }
+
+  /* Botón secundario sobre fondo oscuro: borde + texto blanco (19.6:1) */
+  .btn-outline-light {
+    @apply inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white font-display font-semibold uppercase tracking-wide px-6 py-3 rounded-rounded transition-colors duration-150 hover:bg-white hover:text-brand-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white;
+  }
+
+  /* Barra de acento (no textual) para tarjetas/encabezados */
+  .accent-bar {
+    @apply block h-1 w-12 bg-brand-orange rounded-full;
+  }
+
   .text-xsmall-regular {
     @apply text-[10px] leading-4 font-normal;
   }
