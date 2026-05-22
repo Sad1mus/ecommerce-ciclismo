@@ -26,3 +26,10 @@ venv/
 
 # Datos generados (se regeneran desde el CSV con normalize_inventory.py)
 data/inventario.json
+
+# Imágenes del catálogo (binarios pesados, NO al repo; fuente local del dueño)
+drive-download-20250611T144345Z-1-001/
+*.jpg
+*.jpeg
+*.png
+*.webp

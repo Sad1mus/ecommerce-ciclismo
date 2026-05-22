@@ -1,0 +1,4258 @@
+{
+  "1-RK::SPC169::Bolso Portacelular cuadrado waterproof": {
+    "product_id": "SPC169",
+    "handle": "bolso-portacelular-cuadrado-waterproof",
+    "name": "Bolso Portacelular cuadrado waterproof",
+    "tipo": "Bolsos",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::SPC207::Bolso Portacelular curvo Waterproof": {
+    "product_id": "SPC207",
+    "handle": "bolso-portacelular-curvo-waterproof",
+    "name": "Bolso Portacelular curvo Waterproof",
+    "tipo": "Bolsos",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::BP220::Bomba mini extension manguera": {
+    "product_id": "BP220",
+    "handle": "bomba-mini-extension-manguera",
+    "name": "Bomba mini extension manguera",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::CL128::Candado manguera espiral": {
+    "product_id": "CL128",
+    "handle": "candado-manguera-espiral",
+    "name": "Candado manguera espiral",
+    "tipo": "Candados",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::CL180::Candado manguera espiral": {
+    "product_id": "CL180",
+    "handle": "candado-manguera-espiral-2",
+    "name": "Candado manguera espiral",
+    "tipo": "Candados",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::TRF07::FILTRO TAPABOCAS PLAST": {
+    "product_id": "TRF07",
+    "handle": "filtro-tapabocas-plast",
+    "name": "FILTRO TAPABOCAS PLAST",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::FP294::Forro gel MTB antipros": {
+    "product_id": "FP294",
+    "handle": "forro-gel-mtb-antipros",
+    "name": "Forro gel MTB antipros",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GR690::GUARDABARRO DEL TRAS": {
+    "product_id": "GR690",
+    "handle": "guardabarro-del-tras",
+    "name": "GUARDABARRO DEL TRAS",
+    "tipo": "Guardabarros",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GF201::Gafa ciclismo": {
+    "product_id": "GF201",
+    "handle": "gafa-ciclismo",
+    "name": "Gafa ciclismo",
+    "tipo": "Gafas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GB30C::Guante mtb corto": {
+    "product_id": "GB30C",
+    "handle": "guante-mtb-corto",
+    "name": "Guante mtb corto",
+    "tipo": "Guantes",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GB30L::Guante mtb largo": {
+    "product_id": "GB30L",
+    "handle": "guante-mtb-largo",
+    "name": "Guante mtb largo",
+    "tipo": "Guantes",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GR801::Guardabarro deltras con luz": {
+    "product_id": "GR801",
+    "handle": "guardabarro-deltras-con-luz",
+    "name": "Guardabarro deltras con luz",
+    "tipo": "Guardabarros",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::GR870::Guardabarro mtb del - tras": {
+    "product_id": "GR870",
+    "handle": "guardabarro-mtb-del-tras",
+    "name": "Guardabarro mtb del - tras",
+    "tipo": "Guardabarros",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::HC005::Herramienta kit con navaja multi": {
+    "product_id": "HC005",
+    "handle": "herramienta-kit-con-navaja-multi",
+    "name": "Herramienta kit con navaja multi",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::HC009::Herramienta set multifuncional": {
+    "product_id": "HC009",
+    "handle": "herramienta-set-multifuncional",
+    "name": "Herramienta set multifuncional",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::HC513::Kit despinche parche autoadhesivos mas palancas": {
+    "product_id": "HC513",
+    "handle": "kit-despinche-parche-autoadhesivos-mas-palancas",
+    "name": "Kit despinche parche autoadhesivos mas palancas",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::HC601::Kit despinche parches autoadhe": {
+    "product_id": "HC601",
+    "handle": "kit-despinche-parches-autoadhe",
+    "name": "Kit despinche parches autoadhe",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX031::LUZ USB BICCASCO": {
+    "product_id": "LX031",
+    "handle": "luz-usb-biccasco",
+    "name": "LUZ USB BICCASCO",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::BK012::Luz frontal 300L": {
+    "product_id": "BK012",
+    "handle": "luz-frontal-300l",
+    "name": "Luz frontal 300L",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::BL200::Luz frontal alum": {
+    "product_id": "BL200",
+    "handle": "luz-frontal-alum",
+    "name": "Luz frontal alum",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::AS808::Luz frontal con velocimetro 5 en 1": {
+    "product_id": "AS808",
+    "handle": "luz-frontal-con-velocimetro-5-en-1",
+    "name": "Luz frontal con velocimetro 5 en 1",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX227::Luz frontal multicolor lateral": {
+    "product_id": "LX227",
+    "handle": "luz-frontal-multicolor-lateral",
+    "name": "Luz frontal multicolor lateral",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX062::Luz frontal sensor azul-rojo alum": {
+    "product_id": "LX062",
+    "handle": "luz-frontal-sensor-azul-rojo-alum",
+    "name": "Luz frontal sensor azul-rojo alum",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX050::Luz frontal tipo go pro": {
+    "product_id": "LX050",
+    "handle": "luz-frontal-tipo-go-pro",
+    "name": "Luz frontal tipo go pro",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX023::Luz trasera abrazadera pie": {
+    "product_id": "LX023",
+    "handle": "luz-trasera-abrazadera-pie",
+    "name": "Luz trasera abrazadera pie",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX608::Luz trasera alum base giratoria 2 colores": {
+    "product_id": "LX608",
+    "handle": "luz-trasera-alum-base-giratoria-2-colores",
+    "name": "Luz trasera alum base giratoria 2 colores",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LX005::Luz trasera circular alum": {
+    "product_id": "LX005",
+    "handle": "luz-trasera-circular-alum",
+    "name": "Luz trasera circular alum",
+    "tipo": "Luces",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::MGF02::Mango foamy colores": {
+    "product_id": "MGF02",
+    "handle": "mango-foamy-colores",
+    "name": "Mango foamy colores",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::LK055::Paral lateral alum R26-29": {
+    "product_id": "LK055",
+    "handle": "paral-lateral-alum-r26-29",
+    "name": "Paral lateral alum R26-29",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::P2032::Pila multi dispositivos": {
+    "product_id": "P2032",
+    "handle": "pila-multi-dispositivos",
+    "name": "Pila multi dispositivos",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "1-RK"
+  },
+  "1-RK::TP006::TAPONES PMANUBRIO": {
+    "product_id": "TP006",
+    "handle": "tapones-pmanubrio",
+    "name": "TAPONES PMANUBRIO",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "1-RK"
+  },
+  "1.1-KL::SIN_ID::BOMBA MINI, AL, MOD. RP-1": {
+    "product_id": "SIN_ID",
+    "handle": "bomba-mini-al-mod-rp-1",
+    "name": "BOMBA MINI, AL, MOD. RP-1",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::PC401::CALAPIES ACOR": {
+    "product_id": "PC401",
+    "handle": "calapies-acor",
+    "name": "CALAPIES ACOR",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::CINT01::Cinta sellante ptubeless Gorila": {
+    "product_id": "CINT01",
+    "handle": "cinta-sellante-ptubeless-gorila",
+    "name": "Cinta sellante ptubeless Gorila",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::SIN_ID::Kit Reparación Tubeless Con Gusanillos Genuine Innovations - $62500": {
+    "product_id": "SIN_ID",
+    "handle": "kit-reparacion-tubeless-con-gusanillos-genuine-innovations-62500",
+    "name": "Kit Reparación Tubeless Con Gusanillos Genuine Innovations - $62500",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::NMS055::NEUMATICO SERFAS 700V": {
+    "product_id": "NMS055",
+    "handle": "neumatico-serfas-700v",
+    "name": "NEUMATICO SERFAS 700V",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::PRO706::PROTECTOR NEOPRENO PMARCO": {
+    "product_id": "PRO706",
+    "handle": "protector-neopreno-pmarco",
+    "name": "PROTECTOR NEOPRENO PMARCO",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::SP320::SOPORTE PCAR KUL": {
+    "product_id": "SP320",
+    "handle": "soporte-pcar-kul",
+    "name": "SOPORTE PCAR KUL",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "1.1-KL"
+  },
+  "1.1-KL::SX165::Silla mtb antipros gel kul negro  imagen lateral": {
+    "product_id": "SX165",
+    "handle": "silla-mtb-antipros-gel-kul-negro-imagen-lateral",
+    "name": "Silla mtb antipros gel kul negro  imagen lateral",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "1.1-KL"
+  },
+  "2-SPK::ABR6BK::Abrazadera velcro pgup": {
+    "product_id": "ABR6BK",
+    "handle": "abrazadera-velcro-pgup",
+    "name": "Abrazadera velcro pgup",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::TB07::Accesorio timbre usb": {
+    "product_id": "TB07",
+    "handle": "accesorio-timbre-usb",
+    "name": "Accesorio timbre usb",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::BPH2007::Bolso portaherramienta con luz": {
+    "product_id": "BPH2007",
+    "handle": "bolso-portaherramienta-con-luz",
+    "name": "Bolso portaherramienta con luz",
+    "tipo": "Bolsos",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::MPS25B03::Bomba mini alum con manometro": {
+    "product_id": "MPS25B03",
+    "handle": "bomba-mini-alum-con-manometro",
+    "name": "Bomba mini alum con manometro",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::MPS21B03::Bomba mini alum manometro": {
+    "product_id": "MPS21B03",
+    "handle": "bomba-mini-alum-manometro",
+    "name": "Bomba mini alum manometro",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::MPS1901::Bomba mini alum teles": {
+    "product_id": "MPS1901",
+    "handle": "bomba-mini-alum-teles",
+    "name": "Bomba mini alum teles",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::ASY41::CASCO MTB BK": {
+    "product_id": "ASY41",
+    "handle": "casco-mtb-bk",
+    "name": "CASCO MTB BK",
+    "tipo": "Cascos",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::SIN_ID::CASCO MTB- CASY41 TALLA L NEON AMARILLO - MEGRO MATE INMOLD PESO 232 GRAMOS": {
+    "product_id": "SIN_ID",
+    "handle": "casco-mtb-casy41-talla-l-neon-amarillo-megro-mate-inmold-peso-232-gramos",
+    "name": "CASCO MTB- CASY41 TALLA L NEON AMARILLO - MEGRO MATE INMOLD PESO 232 GRAMOS",
+    "tipo": "Cascos",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::ASY32::CASCO RUTA BK": {
+    "product_id": "ASY32",
+    "handle": "casco-ruta-bk",
+    "name": "CASCO RUTA BK",
+    "tipo": "Cascos",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::CAR01::Caramañola Enlee 650ml piston": {
+    "product_id": "CAR01",
+    "handle": "caramanola-enlee-650ml-piston",
+    "name": "Caramañola Enlee 650ml piston",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::CAR02::Caramañola Enlee diseño": {
+    "product_id": "CAR02",
+    "handle": "caramanola-enlee-diseno",
+    "name": "Caramañola Enlee diseño",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::CAR05::Caramañola plastwt": {
+    "product_id": "CAR05",
+    "handle": "caramanola-plastwt",
+    "name": "Caramañola plastwt",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::CX023::Cinta pmanubrio controltech": {
+    "product_id": "CX023",
+    "handle": "cinta-pmanubrio-controltech",
+    "name": "Cinta pmanubrio controltech",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::HC025::Llave extractora cadena acero": {
+    "product_id": "HC025",
+    "handle": "llave-extractora-cadena-acero",
+    "name": "Llave extractora cadena acero",
+    "tipo": "Transmisión",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::PX097::Pedal ALMTB": {
+    "product_id": "PX097",
+    "handle": "pedal-almtb",
+    "name": "Pedal ALMTB",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::G6BK::Sellante inflador GUP": {
+    "product_id": "G6BK",
+    "handle": "sellante-inflador-gup",
+    "name": "Sellante inflador GUP",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::913::Silla MTB anti negro espuma memoria": {
+    "product_id": "913",
+    "handle": "silla-mtb-anti-negro-espuma-memoria",
+    "name": "Silla MTB anti negro espuma memoria",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::BC05::Soporte PCaramañola fibra nylon con palancas": {
+    "product_id": "BC05",
+    "handle": "soporte-pcaramanola-fibra-nylon-con-palancas",
+    "name": "Soporte PCaramañola fibra nylon con palancas",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::BC39::Soporte Pcaramañola ambi nylon": {
+    "product_id": "BC39",
+    "handle": "soporte-pcaramanola-ambi-nylon",
+    "name": "Soporte Pcaramañola ambi nylon",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::SP231::Soporte plast PInflador - CO2 - GPS multiproposito": {
+    "product_id": "SP231",
+    "handle": "soporte-plast-pinflador-co2-gps-multiproposito",
+    "name": "Soporte plast PInflador - CO2 - GPS multiproposito",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "2-SPK"
+  },
+  "2-SPK::SP106::Soporte plast PTermo con palanca": {
+    "product_id": "SP106",
+    "handle": "soporte-plast-ptermo-con-palanca",
+    "name": "Soporte plast PTermo con palanca",
+    "tipo": "Hidratación",
+    "codigo_interno": "2-SPK"
+  },
+  "3-RR::ABR012::Abrazadera alum 35mm Colores": {
+    "product_id": "ABR012",
+    "handle": "abrazadera-alum-35mm-colores",
+    "name": "Abrazadera alum 35mm Colores",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::ABR010::Abrazadera alum 35mm Dor": {
+    "product_id": "ABR010",
+    "handle": "abrazadera-alum-35mm-dor",
+    "name": "Abrazadera alum 35mm Dor",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::SIN_ID::Aros R26 65500 R27.5 65500 R29 69500": {
+    "product_id": "SIN_ID",
+    "handle": "aros-r26-65500-r27-5-65500-r29-69500",
+    "name": "Aros R26 65500 R27.5 65500 R29 69500",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CAN010::Caña PSilla alum 30,9": {
+    "product_id": "CAN010",
+    "handle": "cana-psilla-alum-30-9",
+    "name": "Caña PSilla alum 30,9",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CAN014::Caña Psilla alum Dor": {
+    "product_id": "CAN014",
+    "handle": "cana-psilla-alum-dor",
+    "name": "Caña Psilla alum Dor",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CAN013::Caña Psilla alum tornasol": {
+    "product_id": "CAN013",
+    "handle": "cana-psilla-alum-tornasol",
+    "name": "Caña Psilla alum tornasol",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CDX015::Codo alum MTB 35mm colores": {
+    "product_id": "CDX015",
+    "handle": "codo-alum-mtb-35mm-colores",
+    "name": "Codo alum MTB 35mm colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CDX007::Codo mtb RIPPER 45 mm alum": {
+    "product_id": "CDX007",
+    "handle": "codo-mtb-ripper-45-mm-alum",
+    "name": "Codo mtb RIPPER 45 mm alum",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CDX016::Codo mtb alum 35mm tornasol": {
+    "product_id": "CDX016",
+    "handle": "codo-mtb-alum-35mm-tornasol",
+    "name": "Codo mtb alum 35mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::CDX011::Codo mtb alum 45mm tornasol": {
+    "product_id": "CDX011",
+    "handle": "codo-mtb-alum-45mm-tornasol",
+    "name": "Codo mtb alum 45mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::ESP011::Espaciador Tornasol": {
+    "product_id": "ESP011",
+    "handle": "espaciador-tornasol",
+    "name": "Espaciador Tornasol",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::SIN_ID::Espiga rebeld": {
+    "product_id": "SIN_ID",
+    "handle": "espiga-rebeld",
+    "name": "Espiga rebeld",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::LLANT27::Llanta Ripper R27.5": {
+    "product_id": "LLANT27",
+    "handle": "llanta-ripper-r27-5",
+    "name": "Llanta Ripper R27.5",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MAN014::MANUBRIO RIPPER 800mm 25°": {
+    "product_id": "MAN014",
+    "handle": "manubrio-ripper-800mm-25",
+    "name": "MANUBRIO RIPPER 800mm 25°",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MAN013::MANUBRIO RIPPER 800mm 45° Dor": {
+    "product_id": "MAN013",
+    "handle": "manubrio-ripper-800mm-45-dor",
+    "name": "MANUBRIO RIPPER 800mm 45° Dor",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::SIN_ID::Manubrio 800mm Azul": {
+    "product_id": "SIN_ID",
+    "handle": "manubrio-800mm-azul",
+    "name": "Manubrio 800mm Azul",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::SIN_ID::Manubrio 800mm Negro negro": {
+    "product_id": "SIN_ID",
+    "handle": "manubrio-800mm-negro-negro",
+    "name": "Manubrio 800mm Negro negro",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::SIN_ID::Manubrio 800mm Rojo": {
+    "product_id": "SIN_ID",
+    "handle": "manubrio-800mm-rojo",
+    "name": "Manubrio 800mm Rojo",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MAN038::Manubrio Riper mtb 800mm race 45° torna": {
+    "product_id": "MAN038",
+    "handle": "manubrio-riper-mtb-800mm-race-45-torna",
+    "name": "Manubrio Riper mtb 800mm race 45° torna",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MZN053::Manzana MTB 36H 6TRQ Tornasol": {
+    "product_id": "MZN053",
+    "handle": "manzana-mtb-36h-6trq-tornasol",
+    "name": "Manzana MTB 36H 6TRQ Tornasol",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MZN058::Manzana MTB tras 36hh Reneg 6trq": {
+    "product_id": "MZN058",
+    "handle": "manzana-mtb-tras-36hh-reneg-6trq",
+    "name": "Manzana MTB tras 36hh Reneg 6trq",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MZN057::Manzanas MTB 36h Reneg 6trq colores": {
+    "product_id": "MZN057",
+    "handle": "manzanas-mtb-36h-reneg-6trq-colores",
+    "name": "Manzanas MTB 36h Reneg 6trq colores",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MZN062::Manzanas MTB 36h Renegr 6trq Torna": {
+    "product_id": "MZN062",
+    "handle": "manzanas-mtb-36h-renegr-6trq-torna",
+    "name": "Manzanas MTB 36h Renegr 6trq Torna",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MNP012::Monoplato Tornasol centro hueco 32t": {
+    "product_id": "MNP012",
+    "handle": "monoplato-tornasol-centro-hueco-32t",
+    "name": "Monoplato Tornasol centro hueco 32t",
+    "tipo": "Transmisión",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::MNP010::Monoplato eje cuadrante 32T Negro": {
+    "product_id": "MNP010",
+    "handle": "monoplato-eje-cuadrante-32t-negro",
+    "name": "Monoplato eje cuadrante 32T Negro",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::PX010::Pedal ALMTB": {
+    "product_id": "PX010",
+    "handle": "pedal-almtb-2",
+    "name": "Pedal ALMTB",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::PX011::Pedal NylonMTB Colores": {
+    "product_id": "PX011",
+    "handle": "pedal-nylonmtb-colores",
+    "name": "Pedal NylonMTB Colores",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::PX012::Pedal alum mtb": {
+    "product_id": "PX012",
+    "handle": "pedal-alum-mtb",
+    "name": "Pedal alum mtb",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "3-RR"
+  },
+  "3-RR::TPX023::Tapa PCodo colores": {
+    "product_id": "TPX023",
+    "handle": "tapa-pcodo-colores",
+    "name": "Tapa PCodo colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "3-RR"
+  },
+  "4-BK::SPC202::Bolso portacelular con alforja waterproof": {
+    "product_id": "SPC202",
+    "handle": "bolso-portacelular-con-alforja-waterproof",
+    "name": "Bolso portacelular con alforja waterproof",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::SPC201::Bolso portacelular waterproof": {
+    "product_id": "SPC201",
+    "handle": "bolso-portacelular-waterproof",
+    "name": "Bolso portacelular waterproof",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::BXS105::Bomba mini manometro digital": {
+    "product_id": "BXS105",
+    "handle": "bomba-mini-manometro-digital",
+    "name": "Bomba mini manometro digital",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::XTC114L::Cadena single speed": {
+    "product_id": "XTC114L",
+    "handle": "cadena-single-speed",
+    "name": "Cadena single speed",
+    "tipo": "Transmisión",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::CAR128::Caramañola power jet 620ml": {
+    "product_id": "CAR128",
+    "handle": "caramanola-power-jet-620ml",
+    "name": "Caramañola power jet 620ml",
+    "tipo": "Hidratación",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::CAR127::Caramañola power jet 750ml": {
+    "product_id": "CAR127",
+    "handle": "caramanola-power-jet-750ml",
+    "name": "Caramañola power jet 750ml",
+    "tipo": "Hidratación",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::CAS065::Casco mtb plegable": {
+    "product_id": "CAS065",
+    "handle": "casco-mtb-plegable",
+    "name": "Casco mtb plegable",
+    "tipo": "Cascos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::TP003::Filtro Pmascaras antip": {
+    "product_id": "TP003",
+    "handle": "filtro-pmascaras-antip",
+    "name": "Filtro Pmascaras antip",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::GF724::Gafa mtb lente inter montura formula  -": {
+    "product_id": "GF724",
+    "handle": "gafa-mtb-lente-inter-montura-formula",
+    "name": "Gafa mtb lente inter montura formula  -",
+    "tipo": "Gafas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::GF808::Gafas 3 lentes inter montura para formula": {
+    "product_id": "GF808",
+    "handle": "gafas-3-lentes-inter-montura-para-formula",
+    "name": "Gafas 3 lentes inter montura para formula",
+    "tipo": "Gafas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::HC014::Herramienta kit multiproposito": {
+    "product_id": "HC014",
+    "handle": "herramienta-kit-multiproposito",
+    "name": "Herramienta kit multiproposito",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::HC011::Herramienta multifuncional": {
+    "product_id": "HC011",
+    "handle": "herramienta-multifuncional",
+    "name": "Herramienta multifuncional",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::HL016::Herramienta multifuncional 15 en 1": {
+    "product_id": "HL016",
+    "handle": "herramienta-multifuncional-15-en-1",
+    "name": "Herramienta multifuncional 15 en 1",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::KIT02::Kit bolso alforja portacel - accesorios": {
+    "product_id": "KIT02",
+    "handle": "kit-bolso-alforja-portacel-accesorios",
+    "name": "Kit bolso alforja portacel - accesorios",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::KIT01::Kit bolso portacel - accesorios": {
+    "product_id": "KIT01",
+    "handle": "kit-bolso-portacel-accesorios",
+    "name": "Kit bolso portacel - accesorios",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::KIT88::Kit luz del - tras": {
+    "product_id": "KIT88",
+    "handle": "kit-luz-del-tras",
+    "name": "Kit luz del - tras",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::KIT602::Kit portaherramienta mas accesorios": {
+    "product_id": "KIT602",
+    "handle": "kit-portaherramienta-mas-accesorios",
+    "name": "Kit portaherramienta mas accesorios",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::J10::Kit solucion para parche": {
+    "product_id": "J10",
+    "handle": "kit-solucion-para-parche",
+    "name": "Kit solucion para parche",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::HB505::Luz combo del - tras Battery": {
+    "product_id": "HB505",
+    "handle": "luz-combo-del-tras-battery",
+    "name": "Luz combo del - tras Battery",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::HB509::Luz combo del - tras Battery": {
+    "product_id": "HB509",
+    "handle": "luz-combo-del-tras-battery-2",
+    "name": "Luz combo del - tras Battery",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::WJ101::Luz combo del - tras Battery": {
+    "product_id": "WJ101",
+    "handle": "luz-combo-del-tras-battery-3",
+    "name": "Luz combo del - tras Battery",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::XA585::Luz del con velocimetro": {
+    "product_id": "XA585",
+    "handle": "luz-del-con-velocimetro",
+    "name": "Luz del con velocimetro",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::LX6108::Luz frontal aleacion alum usb": {
+    "product_id": "LX6108",
+    "handle": "luz-frontal-aleacion-alum-usb",
+    "name": "Luz frontal aleacion alum usb",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::BK007::Luz frontal power band portacelular": {
+    "product_id": "BK007",
+    "handle": "luz-frontal-power-band-portacelular",
+    "name": "Luz frontal power band portacelular",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::BK008T::Luz trasera cubierta en goma rosa-negro-blanco": {
+    "product_id": "BK008T",
+    "handle": "luz-trasera-cubierta-en-goma-rosa-negro-blanco",
+    "name": "Luz trasera cubierta en goma rosa-negro-blanco",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::LX040::Luz trasera direcional bluetooh  - 2": {
+    "product_id": "LX040",
+    "handle": "luz-trasera-direcional-bluetooh-2",
+    "name": "Luz trasera direcional bluetooh  - 2",
+    "tipo": "Luces",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::PS811::Pastilla compatible shimano": {
+    "product_id": "PS811",
+    "handle": "pastilla-compatible-shimano",
+    "name": "Pastilla compatible shimano",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::DS01::Pastilla freno comp Hayes": {
+    "product_id": "DS01",
+    "handle": "pastilla-freno-comp-hayes",
+    "name": "Pastilla freno comp Hayes",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::DS10::Pastilla freno comp shimano": {
+    "product_id": "DS10",
+    "handle": "pastilla-freno-comp-shimano",
+    "name": "Pastilla freno comp shimano",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::PS824::Pastillas PDisco": {
+    "product_id": "PS824",
+    "handle": "pastillas-pdisco",
+    "name": "Pastillas PDisco",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::DS40::Pastillas freno comp hayes stroker ride": {
+    "product_id": "DS40",
+    "handle": "pastillas-freno-comp-hayes-stroker-ride",
+    "name": "Pastillas freno comp hayes stroker ride",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::PH001::Portaherramienta reflect mtb": {
+    "product_id": "PH001",
+    "handle": "portaherramienta-reflect-mtb",
+    "name": "Portaherramienta reflect mtb",
+    "tipo": "Bolsos",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::PRO109::Protector palancas para freno colores": {
+    "product_id": "PRO109",
+    "handle": "protector-palancas-para-freno-colores",
+    "name": "Protector palancas para freno colores",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::PRO025::Protector para caña silla silicona": {
+    "product_id": "PRO025",
+    "handle": "protector-para-cana-silla-silicona",
+    "name": "Protector para caña silla silicona",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::RT180::Rotor mtb 180mm": {
+    "product_id": "RT180",
+    "handle": "rotor-mtb-180mm",
+    "name": "Rotor mtb 180mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::SP088::Soporte PCaramañola color": {
+    "product_id": "SP088",
+    "handle": "soporte-pcaramanola-color",
+    "name": "Soporte PCaramañola color",
+    "tipo": "Hidratación",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::MJ003::Tapabocas antipolucion": {
+    "product_id": "MJ003",
+    "handle": "tapabocas-antipolucion",
+    "name": "Tapabocas antipolucion",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::VAL024::Valvula repuesto bolsa": {
+    "product_id": "VAL024",
+    "handle": "valvula-repuesto-bolsa",
+    "name": "Valvula repuesto bolsa",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "4-BK"
+  },
+  "4-BK::SPC428::aAccesorio PManubrio": {
+    "product_id": "SPC428",
+    "handle": "aaccesorio-pmanubrio",
+    "name": "aAccesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "4-BK"
+  },
+  "5-MT::PDZR07::Cala comp shimano": {
+    "product_id": "PDZR07",
+    "handle": "cala-comp-shimano",
+    "name": "Cala comp shimano",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "5-MT"
+  },
+  "5-MT::KIT197::Kit parche ptubeless x6": {
+    "product_id": "KIT197",
+    "handle": "kit-parche-ptubeless-x6",
+    "name": "Kit parche ptubeless x6",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "5-MT"
+  },
+  "5-MT::KIT022A::Kit parche tubless x7": {
+    "product_id": "KIT022A",
+    "handle": "kit-parche-tubless-x7",
+    "name": "Kit parche tubless x7",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "5-MT"
+  },
+  "5-MT::MG035::Mangos mtb 100_ silicona": {
+    "product_id": "MG035",
+    "handle": "mangos-mtb-100-silicona",
+    "name": "Mangos mtb 100_ silicona",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "5-MT"
+  },
+  "5-MT::MG001::Mangos tipo silicona mtb colores": {
+    "product_id": "MG001",
+    "handle": "mangos-tipo-silicona-mtb-colores",
+    "name": "Mangos tipo silicona mtb colores",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "5-MT"
+  },
+  "5-MT::MG157::mango anillos espuma colombia": {
+    "product_id": "MG157",
+    "handle": "mango-anillos-espuma-colombia",
+    "name": "mango anillos espuma colombia",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "5-MT"
+  },
+  "6-CL::BCK660::Accesorio PManubrio": {
+    "product_id": "BCK660",
+    "handle": "accesorio-pmanubrio",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK657::Accesorio PManubrio": {
+    "product_id": "BCK657",
+    "handle": "accesorio-pmanubrio-2",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK662::Accesorio PManubrio": {
+    "product_id": "BCK662",
+    "handle": "accesorio-pmanubrio-3",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK659::Accesorio PManubrio": {
+    "product_id": "BCK659",
+    "handle": "accesorio-pmanubrio-4",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK661::Accesorio PManubrio": {
+    "product_id": "BCK661",
+    "handle": "accesorio-pmanubrio-5",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK655::Accesorio PManubrio": {
+    "product_id": "BCK655",
+    "handle": "accesorio-pmanubrio-6",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK740::Accesorio PManubrio": {
+    "product_id": "BCK740",
+    "handle": "accesorio-pmanubrio-7",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK656::Accesorio PManubrio": {
+    "product_id": "BCK656",
+    "handle": "accesorio-pmanubrio-8",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK658::Accesorio PManubrio": {
+    "product_id": "BCK658",
+    "handle": "accesorio-pmanubrio-9",
+    "name": "Accesorio PManubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK714::Accesorio Tipo corneta usb": {
+    "product_id": "BCK714",
+    "handle": "accesorio-tipo-corneta-usb",
+    "name": "Accesorio Tipo corneta usb",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK161::Accesorio para instalacion multiproposito": {
+    "product_id": "BCK161",
+    "handle": "accesorio-para-instalacion-multiproposito",
+    "name": "Accesorio para instalacion multiproposito",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK408::Accesorio pito usb 4f": {
+    "product_id": "BCK408",
+    "handle": "accesorio-pito-usb-4f",
+    "name": "Accesorio pito usb 4f",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK257::Adaptador PValvula": {
+    "product_id": "BCK257",
+    "handle": "adaptador-pvalvula",
+    "name": "Adaptador PValvula",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK626::Adaptador coronilla comp Sram bcd104mm": {
+    "product_id": "BCK626",
+    "handle": "adaptador-coronilla-comp-sram-bcd104mm",
+    "name": "Adaptador coronilla comp Sram bcd104mm",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK625::Adaptador coronilla comp shim bcd104mm": {
+    "product_id": "BCK625",
+    "handle": "adaptador-coronilla-comp-shim-bcd104mm",
+    "name": "Adaptador coronilla comp shim bcd104mm",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK292::Alarma con Pito USB 5f": {
+    "product_id": "BCK292",
+    "handle": "alarma-con-pito-usb-5f",
+    "name": "Alarma con Pito USB 5f",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK384::Bicicleta colecionable exhibicion": {
+    "product_id": "BCK384",
+    "handle": "bicicleta-colecionable-exhibicion",
+    "name": "Bicicleta colecionable exhibicion",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK385::Bicicleta mini exhibicion con reloj": {
+    "product_id": "BCK385",
+    "handle": "bicicleta-mini-exhibicion-con-reloj",
+    "name": "Bicicleta mini exhibicion con reloj",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK544::Bicicleta mini exhibicion playera": {
+    "product_id": "BCK544",
+    "handle": "bicicleta-mini-exhibicion-playera",
+    "name": "Bicicleta mini exhibicion playera",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK535::Bolso Hydropack vej 2L": {
+    "product_id": "BCK535",
+    "handle": "bolso-hydropack-vej-2l",
+    "name": "Bolso Hydropack vej 2L",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK134::Bolso PBici con alforjas multipro": {
+    "product_id": "BCK134",
+    "handle": "bolso-pbici-con-alforjas-multipro",
+    "name": "Bolso PBici con alforjas multipro",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK705::Bolso Pmanubrio multipropósito": {
+    "product_id": "BCK705",
+    "handle": "bolso-pmanubrio-multiproposito",
+    "name": "Bolso Pmanubrio multipropósito",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK042::Bolso Portacelular cuadrado waterproof": {
+    "product_id": "BCK042",
+    "handle": "bolso-portacelular-cuadrado-waterproof-2",
+    "name": "Bolso Portacelular cuadrado waterproof",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK004::Bolso del alforja portaherramienta": {
+    "product_id": "BCK004",
+    "handle": "bolso-del-alforja-portaherramienta",
+    "name": "Bolso del alforja portaherramienta",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK035::Bolso del mportaherramienta": {
+    "product_id": "BCK035",
+    "handle": "bolso-del-mportaherramienta",
+    "name": "Bolso del mportaherramienta",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK011::Bolso del portaherramienta": {
+    "product_id": "BCK011",
+    "handle": "bolso-del-portaherramienta",
+    "name": "Bolso del portaherramienta",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK045::Bolso hydropack mtb": {
+    "product_id": "BCK045",
+    "handle": "bolso-hydropack-mtb",
+    "name": "Bolso hydropack mtb",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK133::Bolso mtb Tmilitar multipro": {
+    "product_id": "BCK133",
+    "handle": "bolso-mtb-tmilitar-multipro",
+    "name": "Bolso mtb Tmilitar multipro",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK128::Bolso mtb multipro": {
+    "product_id": "BCK128",
+    "handle": "bolso-mtb-multipro",
+    "name": "Bolso mtb multipro",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK132::Bolso parrilla mtb reflectivo gris": {
+    "product_id": "BCK132",
+    "handle": "bolso-parrilla-mtb-reflectivo-gris",
+    "name": "Bolso parrilla mtb reflectivo gris",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK036::Bolso portacelular curvo water proof": {
+    "product_id": "BCK036",
+    "handle": "bolso-portacelular-curvo-water-proof",
+    "name": "Bolso portacelular curvo water proof",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK005::Bolso portaheramienta con luz tras usb": {
+    "product_id": "BCK005",
+    "handle": "bolso-portaheramienta-con-luz-tras-usb",
+    "name": "Bolso portaheramienta con luz tras usb",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK130::Bolso portaherramienta multiproposito parrilla": {
+    "product_id": "BCK130",
+    "handle": "bolso-portaherramienta-multiproposito-parrilla",
+    "name": "Bolso portaherramienta multiproposito parrilla",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK023::Bolso portaherramienta y termo water proof del": {
+    "product_id": "BCK023",
+    "handle": "bolso-portaherramienta-y-termo-water-proof-del",
+    "name": "Bolso portaherramienta y termo water proof del",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::GS01::Bomba alum psuspension manom GIYO": {
+    "product_id": "GS01",
+    "handle": "bomba-alum-psuspension-manom-giyo",
+    "name": "Bomba alum psuspension manom GIYO",
+    "tipo": "Suspensión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK362::Bomba compre dgt portatil multipro": {
+    "product_id": "BCK362",
+    "handle": "bomba-compre-dgt-portatil-multipro",
+    "name": "Bomba compre dgt portatil multipro",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK695::Bomba mini compresor": {
+    "product_id": "BCK695",
+    "handle": "bomba-mini-compresor",
+    "name": "Bomba mini compresor",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::GP04S::Bomba mini plast": {
+    "product_id": "GP04S",
+    "handle": "bomba-mini-plast",
+    "name": "Bomba mini plast",
+    "tipo": "Bombas e infladores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK124::Cadena piñon fijo": {
+    "product_id": "BCK124",
+    "handle": "cadena-pinon-fijo",
+    "name": "Cadena piñon fijo",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK615::Cadenilla 10vel": {
+    "product_id": "BCK615",
+    "handle": "cadenilla-10vel",
+    "name": "Cadenilla 10vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK618::Cadenilla 11vel": {
+    "product_id": "BCK618",
+    "handle": "cadenilla-11vel",
+    "name": "Cadenilla 11vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK123::Cadenilla 12 - 67 vel": {
+    "product_id": "BCK123",
+    "handle": "cadenilla-12-67-vel",
+    "name": "Cadenilla 12 - 67 vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK619::Cadenilla 12vel": {
+    "product_id": "BCK619",
+    "handle": "cadenilla-12vel",
+    "name": "Cadenilla 12vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK513::Cadenilla 6 - 7vel": {
+    "product_id": "BCK513",
+    "handle": "cadenilla-6-7vel",
+    "name": "Cadenilla 6 - 7vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK512::Cadenilla 8vel": {
+    "product_id": "BCK512",
+    "handle": "cadenilla-8vel",
+    "name": "Cadenilla 8vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK616::Cadenilla 9vel": {
+    "product_id": "BCK616",
+    "handle": "cadenilla-9vel",
+    "name": "Cadenilla 9vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK217::Caja centro mtb": {
+    "product_id": "BCK217",
+    "handle": "caja-centro-mtb",
+    "name": "Caja centro mtb",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK692::Calapies Pbici": {
+    "product_id": "BCK692",
+    "handle": "calapies-pbici",
+    "name": "Calapies Pbici",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK052::Calas comp shimano": {
+    "product_id": "BCK052",
+    "handle": "calas-comp-shimano",
+    "name": "Calas comp shimano",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK460::Campana PBicicleta": {
+    "product_id": "BCK460",
+    "handle": "campana-pbicicleta",
+    "name": "Campana PBicicleta",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK461::Campana PBicicleta plast": {
+    "product_id": "BCK461",
+    "handle": "campana-pbicicleta-plast",
+    "name": "Campana PBicicleta plast",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK612::Candado clave 4dgto inter 110cm": {
+    "product_id": "BCK612",
+    "handle": "candado-clave-4dgto-inter-110cm",
+    "name": "Candado clave 4dgto inter 110cm",
+    "tipo": "Candados",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK611::Candado espiral clave 4dgto": {
+    "product_id": "BCK611",
+    "handle": "candado-espiral-clave-4dgto",
+    "name": "Candado espiral clave 4dgto",
+    "tipo": "Candados",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK260-1::Capa PBici hiper": {
+    "product_id": "BCK260-1",
+    "handle": "capa-pbici-hiper",
+    "name": "Capa PBici hiper",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK520::Capa PBici hiper": {
+    "product_id": "BCK520",
+    "handle": "capa-pbici-hiper-2",
+    "name": "Capa PBici hiper",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK260-2::Capa PBici hiper elast": {
+    "product_id": "BCK260-2",
+    "handle": "capa-pbici-hiper-elast",
+    "name": "Capa PBici hiper elast",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK327::Cartucho mtb 118mm": {
+    "product_id": "BCK327",
+    "handle": "cartucho-mtb-118mm",
+    "name": "Cartucho mtb 118mm",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK189::Casco freestyle color": {
+    "product_id": "BCK189",
+    "handle": "casco-freestyle-color",
+    "name": "Casco freestyle color",
+    "tipo": "Cascos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK664::Caña MTB alum 25,4 X 400mm": {
+    "product_id": "BCK664",
+    "handle": "cana-mtb-alum-25-4-x-400mm",
+    "name": "Caña MTB alum 25,4 X 400mm",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK665::Caña MTB alum 28,6 X 400mm": {
+    "product_id": "BCK665",
+    "handle": "cana-mtb-alum-28-6-x-400mm",
+    "name": "Caña MTB alum 28,6 X 400mm",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK594::Caña PSilla amortiguacion": {
+    "product_id": "BCK594",
+    "handle": "cana-psilla-amortiguacion",
+    "name": "Caña PSilla amortiguacion",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK167::Cepillo bici doble uso ergo": {
+    "product_id": "BCK167",
+    "handle": "cepillo-bici-doble-uso-ergo",
+    "name": "Cepillo bici doble uso ergo",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK166::Cepillo bici juego x 2 limpieza": {
+    "product_id": "BCK166",
+    "handle": "cepillo-bici-juego-x-2-limpieza",
+    "name": "Cepillo bici juego x 2 limpieza",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK537::Chaleco reflectivo luz usb": {
+    "product_id": "BCK537",
+    "handle": "chaleco-reflectivo-luz-usb",
+    "name": "Chaleco reflectivo luz usb",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK454::Chocles Pruta": {
+    "product_id": "BCK454",
+    "handle": "chocles-pruta",
+    "name": "Chocles Pruta",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK519::Cinta Tipo corcho": {
+    "product_id": "BCK519",
+    "handle": "cinta-tipo-corcho",
+    "name": "Cinta Tipo corcho",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK493::Cinta protector antipinchazos": {
+    "product_id": "BCK493",
+    "handle": "cinta-protector-antipinchazos",
+    "name": "Cinta protector antipinchazos",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK752::Cinta protector antipinchazos Pruta": {
+    "product_id": "BCK752",
+    "handle": "cinta-protector-antipinchazos-pruta",
+    "name": "Cinta protector antipinchazos Pruta",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK192::Cinta tipo corcho colores negro - rosado": {
+    "product_id": "BCK192",
+    "handle": "cinta-tipo-corcho-colores-negro-rosado",
+    "name": "Cinta tipo corcho colores negro - rosado",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK393::Codo Mtb alum 35mm colores": {
+    "product_id": "BCK393",
+    "handle": "codo-mtb-alum-35mm-colores",
+    "name": "Codo Mtb alum 35mm colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK439::Codo Mtb alum 35mm colores": {
+    "product_id": "BCK439",
+    "handle": "codo-mtb-alum-35mm-colores-2",
+    "name": "Codo Mtb alum 35mm colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK440::Codo Mtb alum 35mm tornasol": {
+    "product_id": "BCK440",
+    "handle": "codo-mtb-alum-35mm-tornasol-2",
+    "name": "Codo Mtb alum 35mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK392::Codo Mtb alum 45mm colores": {
+    "product_id": "BCK392",
+    "handle": "codo-mtb-alum-45mm-colores",
+    "name": "Codo Mtb alum 45mm colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK441::Codo Mtb alum 45mm colores": {
+    "product_id": "BCK441",
+    "handle": "codo-mtb-alum-45mm-colores-2",
+    "name": "Codo Mtb alum 45mm colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK422::Codo mtb 45mm alum color": {
+    "product_id": "BCK422",
+    "handle": "codo-mtb-45mm-alum-color",
+    "name": "Codo mtb 45mm alum color",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK424::Codo mtb 45mm color": {
+    "product_id": "BCK424",
+    "handle": "codo-mtb-45mm-color",
+    "name": "Codo mtb 45mm color",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK456::Conector Pcadena 6-7-8vel x 6": {
+    "product_id": "BCK456",
+    "handle": "conector-pcadena-6-7-8vel-x-6",
+    "name": "Conector Pcadena 6-7-8vel x 6",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Conector cadena x 6 unds - BCK457-BCK458(10v)-BCK459(11v)": {
+    "product_id": "SIN_ID",
+    "handle": "conector-cadena-x-6-unds-bck457-bck458-10v-bck459-11v",
+    "name": "Conector cadena x 6 unds - BCK457-BCK458(10v)-BCK459(11v)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK550::Coronilla biplato bcd 110mm R34T-50T": {
+    "product_id": "BCK550",
+    "handle": "coronilla-biplato-bcd-110mm-r34t-50t",
+    "name": "Coronilla biplato bcd 110mm R34T-50T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK551::Coronilla biplato bcd 110mm R36T-52T": {
+    "product_id": "BCK551",
+    "handle": "coronilla-biplato-bcd-110mm-r36t-52t",
+    "name": "Coronilla biplato bcd 110mm R36T-52T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK627::Coronilla biplato bcd 130mm R39T-53T": {
+    "product_id": "BCK627",
+    "handle": "coronilla-biplato-bcd-130mm-r39t-53t",
+    "name": "Coronilla biplato bcd 130mm R39T-53T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum 3mm BCK463-BCK464(34T)-BCK465(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-3mm-bck463-bck464-34t-bck465-36t",
+    "name": "Coronilla mtb alum 3mm BCK463-BCK464(34T)-BCK465(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum 6mm BCK466-BCK467(32T)-BCK468(34T)-BCK469(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-6mm-bck466-bck467-32t-bck468-34t-bck469-36t",
+    "name": "Coronilla mtb alum 6mm BCK466-BCK467(32T)-BCK468(34T)-BCK469(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK484::Coronilla mtb alum bcd 104mm 38T negro": {
+    "product_id": "BCK484",
+    "handle": "coronilla-mtb-alum-bcd-104mm-38t-negro",
+    "name": "Coronilla mtb alum bcd 104mm 38T negro",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK480::Coronilla mtb alum bcd 104mm 38T silver": {
+    "product_id": "BCK480",
+    "handle": "coronilla-mtb-alum-bcd-104mm-38t-silver",
+    "name": "Coronilla mtb alum bcd 104mm 38T silver",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum bcd 104mm negro BCK481-BCK482(34T)-BCK483(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-bcd-104mm-negro-bck481-bck482-34t-bck483-36t",
+    "name": "Coronilla mtb alum bcd 104mm negro BCK481-BCK482(34T)-BCK483(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum bcd 104mm silver BCK477-BCK478(34T)-BCK479(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-bcd-104mm-silver-bck477-bck478-34t-bck479-36t",
+    "name": "Coronilla mtb alum bcd 104mm silver BCK477-BCK478(34T)-BCK479(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum bcd 96mm negro BCK485-BCK486(32T)-BCK487(34T)-BCK488(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-bcd-96mm-negro-bck485-bck486-32t-bck487-34t-bck488-36t",
+    "name": "Coronilla mtb alum bcd 96mm negro BCK485-BCK486(32T)-BCK487(34T)-BCK488(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb alum bcd 96mm negro BCK485-BCK595(32T)-BCK596(34T)-BCK597(36T) asimetricas": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-alum-bcd-96mm-negro-bck485-bck595-32t-bck596-34t-bck597-36t-asimet",
+    "name": "Coronilla mtb alum bcd 96mm negro BCK485-BCK595(32T)-BCK596(34T)-BCK597(36T) asimetricas",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb montaje directo comp shimano negro BCK470-BCK471(34T)-BCK472(36T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-montaje-directo-comp-shimano-negro-bck470-bck471-34t-bck472-36t",
+    "name": "Coronilla mtb montaje directo comp shimano negro BCK470-BCK471(34T)-BCK472(36T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla mtb montaje directo silver BCK473-BCK474(34T)-BCK475(36T)-BCK476(38T)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-mtb-montaje-directo-silver-bck473-bck474-34t-bck475-36t-bck476-38t",
+    "name": "Coronilla mtb montaje directo silver BCK473-BCK474(34T)-BCK475(36T)-BCK476(38T)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla ovalada 32T Bold 96mm - 104mm (BCK083)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-ovalada-32t-bold-96mm-104mm-bck083",
+    "name": "Coronilla ovalada 32T Bold 96mm - 104mm (BCK083)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Coronilla redonda 30T bold 96mm - bold 104mm (BCK079)": {
+    "product_id": "SIN_ID",
+    "handle": "coronilla-redonda-30t-bold-96mm-bold-104mm-bck079",
+    "name": "Coronilla redonda 30T bold 96mm - bold 104mm (BCK079)",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK214::Descarrilador mtb": {
+    "product_id": "BCK214",
+    "handle": "descarrilador-mtb",
+    "name": "Descarrilador mtb",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK357::Eje extralargo": {
+    "product_id": "BCK357",
+    "handle": "eje-extralargo",
+    "name": "Eje extralargo",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK108::Ejes Pmanzanas x par": {
+    "product_id": "BCK108",
+    "handle": "ejes-pmanzanas-x-par",
+    "name": "Ejes Pmanzanas x par",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK775::Espaciador alum colores": {
+    "product_id": "BCK775",
+    "handle": "espaciador-alum-colores",
+    "name": "Espaciador alum colores",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK774::Espaciador alum colores": {
+    "product_id": "BCK774",
+    "handle": "espaciador-alum-colores-2",
+    "name": "Espaciador alum colores",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK363::Espejo mtb Pmano": {
+    "product_id": "BCK363",
+    "handle": "espejo-mtb-pmano",
+    "name": "Espejo mtb Pmano",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK434::Estacion de mantenimiento Bici": {
+    "product_id": "BCK434",
+    "handle": "estacion-de-mantenimiento-bici",
+    "name": "Estacion de mantenimiento Bici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK448::Extension Ppunta de marco corta": {
+    "product_id": "BCK448",
+    "handle": "extension-ppunta-de-marco-corta",
+    "name": "Extension Ppunta de marco corta",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK447::Extension Ppunta de marco larga": {
+    "product_id": "BCK447",
+    "handle": "extension-ppunta-de-marco-larga",
+    "name": "Extension Ppunta de marco larga",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK372::Extension Psuspension": {
+    "product_id": "BCK372",
+    "handle": "extension-psuspension",
+    "name": "Extension Psuspension",
+    "tipo": "Suspensión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK610::Extractor pin cadena conector": {
+    "product_id": "BCK610",
+    "handle": "extractor-pin-cadena-conector",
+    "name": "Extractor pin cadena conector",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK610-10::Extractor pin cadena conector": {
+    "product_id": "BCK610-10",
+    "handle": "extractor-pin-cadena-conector-2",
+    "name": "Extractor pin cadena conector",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK610-8::Extractor pin cadena conector": {
+    "product_id": "BCK610-8",
+    "handle": "extractor-pin-cadena-conector-3",
+    "name": "Extractor pin cadena conector",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK553::Forro en gel mtb PSilla": {
+    "product_id": "BCK553",
+    "handle": "forro-en-gel-mtb-psilla",
+    "name": "Forro en gel mtb PSilla",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK682::Forro en gel mtb PSilla": {
+    "product_id": "BCK682",
+    "handle": "forro-en-gel-mtb-psilla-2",
+    "name": "Forro en gel mtb PSilla",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK265::Gafas Pciclismo colores": {
+    "product_id": "BCK265",
+    "handle": "gafas-pciclismo-colores",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK650::Gafas Pciclismo colores": {
+    "product_id": "BCK650",
+    "handle": "gafas-pciclismo-colores-2",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK651::Gafas Pciclismo colores": {
+    "product_id": "BCK651",
+    "handle": "gafas-pciclismo-colores-3",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK652::Gafas Pciclismo colores": {
+    "product_id": "BCK652",
+    "handle": "gafas-pciclismo-colores-4",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK653::Gafas Pciclismo colores": {
+    "product_id": "BCK653",
+    "handle": "gafas-pciclismo-colores-5",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK738::Gafas Pciclismo colores": {
+    "product_id": "BCK738",
+    "handle": "gafas-pciclismo-colores-6",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK739::Gafas Pciclismo colores": {
+    "product_id": "BCK739",
+    "handle": "gafas-pciclismo-colores-7",
+    "name": "Gafas Pciclismo colores",
+    "tipo": "Gafas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK707::Guante mtb colores": {
+    "product_id": "BCK707",
+    "handle": "guante-mtb-colores",
+    "name": "Guante mtb colores",
+    "tipo": "Guantes",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK143::Guardabarro del-tras ajustable": {
+    "product_id": "BCK143",
+    "handle": "guardabarro-del-tras-ajustable",
+    "name": "Guardabarro del-tras ajustable",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK509::Guardabarro mtb 3pcs con reflectivo": {
+    "product_id": "BCK509",
+    "handle": "guardabarro-mtb-3pcs-con-reflectivo",
+    "name": "Guardabarro mtb 3pcs con reflectivo",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK510::Guardabarro mtb del - tras": {
+    "product_id": "BCK510",
+    "handle": "guardabarro-mtb-del-tras-2",
+    "name": "Guardabarro mtb del - tras",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK364::Guardabarro mtb del - tras 26-29 azul": {
+    "product_id": "BCK364",
+    "handle": "guardabarro-mtb-del-tras-26-29-azul",
+    "name": "Guardabarro mtb del - tras 26-29 azul",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK366::Guardabarro mtb del - tras 26-29 blanco": {
+    "product_id": "BCK366",
+    "handle": "guardabarro-mtb-del-tras-26-29-blanco",
+    "name": "Guardabarro mtb del - tras 26-29 blanco",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK450::Guardabarro mtb del-tras diseños Enlee": {
+    "product_id": "BCK450",
+    "handle": "guardabarro-mtb-del-tras-disenos-enlee",
+    "name": "Guardabarro mtb del-tras diseños Enlee",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK365::Guardabarro mtb del-tras negro": {
+    "product_id": "BCK365",
+    "handle": "guardabarro-mtb-del-tras-negro",
+    "name": "Guardabarro mtb del-tras negro",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK290::Guardabarro mtb flex": {
+    "product_id": "BCK290",
+    "handle": "guardabarro-mtb-flex",
+    "name": "Guardabarro mtb flex",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK511::Guardabarro ruta del - tras": {
+    "product_id": "BCK511",
+    "handle": "guardabarro-ruta-del-tras",
+    "name": "Guardabarro ruta del - tras",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK451::Guardabarro ruta flex del-tras": {
+    "product_id": "BCK451",
+    "handle": "guardabarro-ruta-flex-del-tras",
+    "name": "Guardabarro ruta flex del-tras",
+    "tipo": "Guardabarros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK226::Guia Pfreno v-brake": {
+    "product_id": "BCK226",
+    "handle": "guia-pfreno-v-brake",
+    "name": "Guia Pfreno v-brake",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK387::HERRAMIENTA DESPIN TNAVAJA": {
+    "product_id": "BCK387",
+    "handle": "herramienta-despin-tnavaja",
+    "name": "HERRAMIENTA DESPIN TNAVAJA",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK003::HERRAMIENTA MULTIF TNAVAJA": {
+    "product_id": "BCK003",
+    "handle": "herramienta-multif-tnavaja",
+    "name": "HERRAMIENTA MULTIF TNAVAJA",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK187::Herramienta despinNavaja bolso": {
+    "product_id": "BCK187",
+    "handle": "herramienta-despinnavaja-bolso",
+    "name": "Herramienta despinNavaja bolso",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK191::Herramienta despinador": {
+    "product_id": "BCK191",
+    "handle": "herramienta-despinador",
+    "name": "Herramienta despinador",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK712::Herramienta multifuncional bici": {
+    "product_id": "BCK712",
+    "handle": "herramienta-multifuncional-bici",
+    "name": "Herramienta multifuncional bici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK713::Herramienta multipropósito bici": {
+    "product_id": "BCK713",
+    "handle": "herramienta-multiproposito-bici",
+    "name": "Herramienta multipropósito bici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK527::Kit de limpieza Pbici": {
+    "product_id": "BCK527",
+    "handle": "kit-de-limpieza-pbici",
+    "name": "Kit de limpieza Pbici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK381::Kit frenos hidraul mtb": {
+    "product_id": "BCK381",
+    "handle": "kit-frenos-hidraul-mtb",
+    "name": "Kit frenos hidraul mtb",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK706::Kit luz del-tras": {
+    "product_id": "BCK706",
+    "handle": "kit-luz-del-tras-2",
+    "name": "Kit luz del-tras",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK386::Kit multiproposito herramientas": {
+    "product_id": "BCK386",
+    "handle": "kit-multiproposito-herramientas",
+    "name": "Kit multiproposito herramientas",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK745::Kit multiservicio bici": {
+    "product_id": "BCK745",
+    "handle": "kit-multiservicio-bici",
+    "name": "Kit multiservicio bici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK746::Kit multiservicio bici": {
+    "product_id": "BCK746",
+    "handle": "kit-multiservicio-bici-2",
+    "name": "Kit multiservicio bici",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK606::Kit parche x 48unds": {
+    "product_id": "BCK606",
+    "handle": "kit-parche-x-48unds",
+    "name": "Kit parche x 48unds",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK348::Kit parches autoadhesivos": {
+    "product_id": "BCK348",
+    "handle": "kit-parches-autoadhesivos",
+    "name": "Kit parches autoadhesivos",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK449::Kit parches autoadhesivos Enlee": {
+    "product_id": "BCK449",
+    "handle": "kit-parches-autoadhesivos-enlee",
+    "name": "Kit parches autoadhesivos Enlee",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK160::Kit parches mas palancas": {
+    "product_id": "BCK160",
+    "handle": "kit-parches-mas-palancas",
+    "name": "Kit parches mas palancas",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::PRO058::Kit proct freno y biela": {
+    "product_id": "PRO058",
+    "handle": "kit-proct-freno-y-biela",
+    "name": "Kit proct freno y biela",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK769::Kit purga Phidraúlicos": {
+    "product_id": "BCK769",
+    "handle": "kit-purga-phidraulicos",
+    "name": "Kit purga Phidraúlicos",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK536::LUZ USB BICCASCO": {
+    "product_id": "BCK536",
+    "handle": "luz-usb-biccasco-2",
+    "name": "LUZ USB BICCASCO",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK288::Llave PRotor": {
+    "product_id": "BCK288",
+    "handle": "llave-protor",
+    "name": "Llave PRotor",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK287::Llave PSuspension": {
+    "product_id": "BCK287",
+    "handle": "llave-psuspension",
+    "name": "Llave PSuspension",
+    "tipo": "Suspensión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK452::Llavero Pbici reflectivo": {
+    "product_id": "BCK452",
+    "handle": "llavero-pbici-reflectivo",
+    "name": "Llavero Pbici reflectivo",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK549::Llavero bici antiguo": {
+    "product_id": "BCK549",
+    "handle": "llavero-bici-antiguo",
+    "name": "Llavero bici antiguo",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK547::Llaveros Pbici clasicos 1": {
+    "product_id": "BCK547",
+    "handle": "llaveros-pbici-clasicos-1",
+    "name": "Llaveros Pbici clasicos 1",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK548::Llaveros Pbici clasicos 2": {
+    "product_id": "BCK548",
+    "handle": "llaveros-pbici-clasicos-2",
+    "name": "Llaveros Pbici clasicos 2",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK295::Luz Pruedas bici": {
+    "product_id": "BCK295",
+    "handle": "luz-pruedas-bici",
+    "name": "Luz Pruedas bici",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK654::Luz brazalete multifun usb": {
+    "product_id": "BCK654",
+    "handle": "luz-brazalete-multifun-usb",
+    "name": "Luz brazalete multifun usb",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK289::Luz del USB pito 5f tactil": {
+    "product_id": "BCK289",
+    "handle": "luz-del-usb-pito-5f-tactil",
+    "name": "Luz del USB pito 5f tactil",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK347::Luz del alum": {
+    "product_id": "BCK347",
+    "handle": "luz-del-alum",
+    "name": "Luz del alum",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK344::Luz del alum indi": {
+    "product_id": "BCK344",
+    "handle": "luz-del-alum-indi",
+    "name": "Luz del alum indi",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK538::Luz del explor sensor": {
+    "product_id": "BCK538",
+    "handle": "luz-del-explor-sensor",
+    "name": "Luz del explor sensor",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK534::Luz del pito 5F": {
+    "product_id": "BCK534",
+    "handle": "luz-del-pito-5f",
+    "name": "Luz del pito 5F",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK342::Luz del power band - pito -": {
+    "product_id": "BCK342",
+    "handle": "luz-del-power-band-pito",
+    "name": "Luz del power band - pito -",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK350::Luz del power band indi": {
+    "product_id": "BCK350",
+    "handle": "luz-del-power-band-indi",
+    "name": "Luz del power band indi",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK525::Luz del usb": {
+    "product_id": "BCK525",
+    "handle": "luz-del-usb",
+    "name": "Luz del usb",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK341::Luz del usb indicador bat": {
+    "product_id": "BCK341",
+    "handle": "luz-del-usb-indicador-bat",
+    "name": "Luz del usb indicador bat",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK339::Luz del usb min": {
+    "product_id": "BCK339",
+    "handle": "luz-del-usb-min",
+    "name": "Luz del usb min",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK741::Luz del ángulo alum": {
+    "product_id": "BCK741",
+    "handle": "luz-del-angulo-alum",
+    "name": "Luz del ángulo alum",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK617::Luz frontal USB": {
+    "product_id": "BCK617",
+    "handle": "luz-frontal-usb",
+    "name": "Luz frontal USB",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK323::Luz frontal usb sonido 5F": {
+    "product_id": "BCK323",
+    "handle": "luz-frontal-usb-sonido-5f",
+    "name": "Luz frontal usb sonido 5F",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK324::Luz frontal usb sonido 5F": {
+    "product_id": "BCK324",
+    "handle": "luz-frontal-usb-sonido-5f-2",
+    "name": "Luz frontal usb sonido 5F",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK325::Luz frontal usb sonido 5F": {
+    "product_id": "BCK325",
+    "handle": "luz-frontal-usb-sonido-5f-3",
+    "name": "Luz frontal usb sonido 5F",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK605::Luz led Pruedas": {
+    "product_id": "BCK605",
+    "handle": "luz-led-pruedas",
+    "name": "Luz led Pruedas",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK700::Luz led tras emotic": {
+    "product_id": "BCK700",
+    "handle": "luz-led-tras-emotic",
+    "name": "Luz led tras emotic",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK701::Luz led tras emotic": {
+    "product_id": "BCK701",
+    "handle": "luz-led-tras-emotic-2",
+    "name": "Luz led tras emotic",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK331::Luz tras circular click": {
+    "product_id": "BCK331",
+    "handle": "luz-tras-circular-click",
+    "name": "Luz tras circular click",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK356::Luz tras direccional blu": {
+    "product_id": "BCK356",
+    "handle": "luz-tras-direccional-blu",
+    "name": "Luz tras direccional blu",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK340::Luz tras usb doble color": {
+    "product_id": "BCK340",
+    "handle": "luz-tras-usb-doble-color",
+    "name": "Luz tras usb doble color",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK183::Luz trasera dual color": {
+    "product_id": "BCK183",
+    "handle": "luz-trasera-dual-color",
+    "name": "Luz trasera dual color",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK205::Luz trasera mini": {
+    "product_id": "BCK205",
+    "handle": "luz-trasera-mini",
+    "name": "Luz trasera mini",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK330::Luz usb combo del - tras": {
+    "product_id": "BCK330",
+    "handle": "luz-usb-combo-del-tras",
+    "name": "Luz usb combo del - tras",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK332::Luz usb combo del - tras": {
+    "product_id": "BCK332",
+    "handle": "luz-usb-combo-del-tras-2",
+    "name": "Luz usb combo del - tras",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK346::Luz usb combo del - tras": {
+    "product_id": "BCK346",
+    "handle": "luz-usb-combo-del-tras-3",
+    "name": "Luz usb combo del - tras",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK026::Luz usb combo del solar - pito tras 100L": {
+    "product_id": "BCK026",
+    "handle": "luz-usb-combo-del-solar-pito-tras-100l",
+    "name": "Luz usb combo del solar - pito tras 100L",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK024::Luz usb doble foco power band indicador carga luces laterales": {
+    "product_id": "BCK024",
+    "handle": "luz-usb-doble-foco-power-band-indicador-carga-luces-laterales",
+    "name": "Luz usb doble foco power band indicador carga luces laterales",
+    "tipo": "Luces",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK621::MANGOS ERGO CEXTEN": {
+    "product_id": "BCK621",
+    "handle": "mangos-ergo-cexten",
+    "name": "MANGOS ERGO CEXTEN",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK503::Mango mtb anillos tipo silicona color": {
+    "product_id": "BCK503",
+    "handle": "mango-mtb-anillos-tipo-silicona-color",
+    "name": "Mango mtb anillos tipo silicona color",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK254::Mango mtb ergo con anillos": {
+    "product_id": "BCK254",
+    "handle": "mango-mtb-ergo-con-anillos",
+    "name": "Mango mtb ergo con anillos",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK253::Mango mtb ergo goma": {
+    "product_id": "BCK253",
+    "handle": "mango-mtb-ergo-goma",
+    "name": "Mango mtb ergo goma",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK502::Mango mtb tipo silicona colores": {
+    "product_id": "BCK502",
+    "handle": "mango-mtb-tipo-silicona-colores",
+    "name": "Mango mtb tipo silicona colores",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK604::Mango mtb tipo silicona colores": {
+    "product_id": "BCK604",
+    "handle": "mango-mtb-tipo-silicona-colores-2",
+    "name": "Mango mtb tipo silicona colores",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK507::Mangos con protector freno espuma": {
+    "product_id": "BCK507",
+    "handle": "mangos-con-protector-freno-espuma",
+    "name": "Mangos con protector freno espuma",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK504::Mangos mtb anillos": {
+    "product_id": "BCK504",
+    "handle": "mangos-mtb-anillos",
+    "name": "Mangos mtb anillos",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK620::Mangos mtb anillos": {
+    "product_id": "BCK620",
+    "handle": "mangos-mtb-anillos-2",
+    "name": "Mangos mtb anillos",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK711::Mangos mtb anillos ergo colores": {
+    "product_id": "BCK711",
+    "handle": "mangos-mtb-anillos-ergo-colores",
+    "name": "Mangos mtb anillos ergo colores",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK505::Mangos mtb anillos ergonomico": {
+    "product_id": "BCK505",
+    "handle": "mangos-mtb-anillos-ergonomico",
+    "name": "Mangos mtb anillos ergonomico",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK417::Manilares mtb alum": {
+    "product_id": "BCK417",
+    "handle": "manilares-mtb-alum",
+    "name": "Manilares mtb alum",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK358::Manilares mtb alum Rojo": {
+    "product_id": "BCK358",
+    "handle": "manilares-mtb-alum-rojo",
+    "name": "Manilares mtb alum Rojo",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK396::Manubrio Mtb alum race 15° colores": {
+    "product_id": "BCK396",
+    "handle": "manubrio-mtb-alum-race-15-colores",
+    "name": "Manubrio Mtb alum race 15° colores",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK628-45::Manubrio mtb 45° color": {
+    "product_id": "BCK628-45",
+    "handle": "manubrio-mtb-45-color",
+    "name": "Manubrio mtb 45° color",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK628::Manubrio mtb Enlee 800mm color": {
+    "product_id": "BCK628",
+    "handle": "manubrio-mtb-enlee-800mm-color",
+    "name": "Manubrio mtb Enlee 800mm color",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK423::Manubrio mtb Enlee 800mm color": {
+    "product_id": "BCK423",
+    "handle": "manubrio-mtb-enlee-800mm-color-2",
+    "name": "Manubrio mtb Enlee 800mm color",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK429::Manzana mtb del - tras cónica": {
+    "product_id": "BCK429",
+    "handle": "manzana-mtb-del-tras-conica",
+    "name": "Manzana mtb del - tras cónica",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK092::Medidor desgaste cadena": {
+    "product_id": "BCK092",
+    "handle": "medidor-desgaste-cadena",
+    "name": "Medidor desgaste cadena",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK770::Monoplato 32T - bcd104mm": {
+    "product_id": "BCK770",
+    "handle": "monoplato-32t-bcd104mm",
+    "name": "Monoplato 32T - bcd104mm",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK771::Monoplato 32t montaje directo": {
+    "product_id": "BCK771",
+    "handle": "monoplato-32t-montaje-directo",
+    "name": "Monoplato 32t montaje directo",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SIN_ID::Neumatico Amerrican val R26 BCK163 - R27 BCK164 (7900) - R29 BCK165 (8200)": {
+    "product_id": "SIN_ID",
+    "handle": "neumatico-amerrican-val-r26-bck163-r27-bck164-7900-r29-bck165-8200",
+    "name": "Neumatico Amerrican val R26 BCK163 - R27 BCK164 (7900) - R29 BCK165 (8200)",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK729::Neumatico Ppatineta 10x2,5 VC": {
+    "product_id": "BCK729",
+    "handle": "neumatico-ppatineta-10x2-5-vc",
+    "name": "Neumatico Ppatineta 10x2,5 VC",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK732::Neumatico Ppatineta 10x2,5 VR": {
+    "product_id": "BCK732",
+    "handle": "neumatico-ppatineta-10x2-5-vr",
+    "name": "Neumatico Ppatineta 10x2,5 VR",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK730::Neumatico Ppatineta 200 x 50 VC": {
+    "product_id": "BCK730",
+    "handle": "neumatico-ppatineta-200-x-50-vc",
+    "name": "Neumatico Ppatineta 200 x 50 VC",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK647::Neumatico Ppatineta 8,1 x 2 VC": {
+    "product_id": "BCK647",
+    "handle": "neumatico-ppatineta-8-1-x-2-vc",
+    "name": "Neumatico Ppatineta 8,1 x 2 VC",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK731::Neumatico Ppatineta 8,5x2,0 VC": {
+    "product_id": "BCK731",
+    "handle": "neumatico-ppatineta-8-5x2-0-vc",
+    "name": "Neumatico Ppatineta 8,5x2,0 VC",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK432::Neumatico Ppatineta 8,5x2125": {
+    "product_id": "BCK432",
+    "handle": "neumatico-ppatineta-8-5x2125",
+    "name": "Neumatico Ppatineta 8,5x2125",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK326::Neumatico R29 fv": {
+    "product_id": "BCK326",
+    "handle": "neumatico-r29-fv",
+    "name": "Neumatico R29 fv",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK430-1::Núcleo repuesto Pmanz": {
+    "product_id": "BCK430-1",
+    "handle": "nucleo-repuesto-pmanz",
+    "name": "Núcleo repuesto Pmanz",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK075::Pacha mtb 10 vel R 11 - 42T": {
+    "product_id": "BCK075",
+    "handle": "pacha-mtb-10-vel-r-11-42t",
+    "name": "Pacha mtb 10 vel R 11 - 42T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK074::Pacha mtb 10 vel R 11 - 46T": {
+    "product_id": "BCK074",
+    "handle": "pacha-mtb-10-vel-r-11-46t",
+    "name": "Pacha mtb 10 vel R 11 - 46T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK076::Pacha mtb 11V 11 - 50T": {
+    "product_id": "BCK076",
+    "handle": "pacha-mtb-11v-11-50t",
+    "name": "Pacha mtb 11V 11 - 50T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK118::Pacha mtb 6vel": {
+    "product_id": "BCK118",
+    "handle": "pacha-mtb-6vel",
+    "name": "Pacha mtb 6vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK250::Pacha mtb 8vel 11 - 42T": {
+    "product_id": "BCK250",
+    "handle": "pacha-mtb-8vel-11-42t",
+    "name": "Pacha mtb 8vel 11 - 42T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK239::Pacha mtb 9vel R 11 - 42T": {
+    "product_id": "BCK239",
+    "handle": "pacha-mtb-9vel-r-11-42t",
+    "name": "Pacha mtb 9vel R 11 - 42T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK077::Pacha mtb12V 11-50T": {
+    "product_id": "BCK077",
+    "handle": "pacha-mtb12v-11-50t",
+    "name": "Pacha mtb12V 11-50T",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK413::Pacha ruta 7 vel": {
+    "product_id": "BCK413",
+    "handle": "pacha-ruta-7-vel",
+    "name": "Pacha ruta 7 vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK414::Pacha ruta 8 vel": {
+    "product_id": "BCK414",
+    "handle": "pacha-ruta-8-vel",
+    "name": "Pacha ruta 8 vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK106::Palancas MTB7 vel integrados": {
+    "product_id": "BCK106",
+    "handle": "palancas-mtb7-vel-integrados",
+    "name": "Palancas MTB7 vel integrados",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK299::Palancas Pdesmonte x par": {
+    "product_id": "BCK299",
+    "handle": "palancas-pdesmonte-x-par",
+    "name": "Palancas Pdesmonte x par",
+    "tipo": "Kits y herramientas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK756::Palancas mtb 10vel": {
+    "product_id": "BCK756",
+    "handle": "palancas-mtb-10vel",
+    "name": "Palancas mtb 10vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK757::Palancas mtb 11vel": {
+    "product_id": "BCK757",
+    "handle": "palancas-mtb-11vel",
+    "name": "Palancas mtb 11vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK208::Palancas mtb 7vel integrados": {
+    "product_id": "BCK208",
+    "handle": "palancas-mtb-7vel-integrados",
+    "name": "Palancas mtb 7vel integrados",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK107::Palancas mtb 8vel": {
+    "product_id": "BCK107",
+    "handle": "palancas-mtb-8vel",
+    "name": "Palancas mtb 8vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK209::Palancas mtb 8vel integra": {
+    "product_id": "BCK209",
+    "handle": "palancas-mtb-8vel-integra",
+    "name": "Palancas mtb 8vel integra",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK236::Palancas mtb 9 vel integrados": {
+    "product_id": "BCK236",
+    "handle": "palancas-mtb-9-vel-integrados",
+    "name": "Palancas mtb 9 vel integrados",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK684::Paral lateral graduacion mtb": {
+    "product_id": "BCK684",
+    "handle": "paral-lateral-graduacion-mtb",
+    "name": "Paral lateral graduacion mtb",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK798::Paral lateral graduacion mtb": {
+    "product_id": "BCK798",
+    "handle": "paral-lateral-graduacion-mtb-2",
+    "name": "Paral lateral graduacion mtb",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK720::Parlante Pbici colores": {
+    "product_id": "BCK720",
+    "handle": "parlante-pbici-colores",
+    "name": "Parlante Pbici colores",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK258::Pedal MTB alum 916": {
+    "product_id": "BCK258",
+    "handle": "pedal-mtb-alum-916",
+    "name": "Pedal MTB alum 916",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK314::Pedal MTB alum 916": {
+    "product_id": "BCK314",
+    "handle": "pedal-mtb-alum-916-2",
+    "name": "Pedal MTB alum 916",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK753::Pedal MTB alum 916": {
+    "product_id": "BCK753",
+    "handle": "pedal-mtb-alum-916-3",
+    "name": "Pedal MTB alum 916",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK702::Pedal Mtb 916 colores": {
+    "product_id": "BCK702",
+    "handle": "pedal-mtb-916-colores",
+    "name": "Pedal Mtb 916 colores",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK419::Pedal Mtb alum 916": {
+    "product_id": "BCK419",
+    "handle": "pedal-mtb-alum-916-4",
+    "name": "Pedal Mtb alum 916",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK609::Pedal Mtb alum 916": {
+    "product_id": "BCK609",
+    "handle": "pedal-mtb-alum-916-5",
+    "name": "Pedal Mtb alum 916",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK390::Pedal Mtb plataforma torna": {
+    "product_id": "BCK390",
+    "handle": "pedal-mtb-plataforma-torna",
+    "name": "Pedal Mtb plataforma torna",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK492::Pedal chocles rod": {
+    "product_id": "BCK492",
+    "handle": "pedal-chocles-rod",
+    "name": "Pedal chocles rod",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK312::Pedal mtb 916 alum": {
+    "product_id": "BCK312",
+    "handle": "pedal-mtb-916-alum",
+    "name": "Pedal mtb 916 alum",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK491::Pedal mtb alum multipro": {
+    "product_id": "BCK491",
+    "handle": "pedal-mtb-alum-multipro",
+    "name": "Pedal mtb alum multipro",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK516::Pedal mtb color": {
+    "product_id": "BCK516",
+    "handle": "pedal-mtb-color",
+    "name": "Pedal mtb color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK727::Pedal mtb plataforma color": {
+    "product_id": "BCK727",
+    "handle": "pedal-mtb-plataforma-color",
+    "name": "Pedal mtb plataforma color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK754::Pedal mtb plataforma color": {
+    "product_id": "BCK754",
+    "handle": "pedal-mtb-plataforma-color-2",
+    "name": "Pedal mtb plataforma color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK438::Pedal mtb plataforma color": {
+    "product_id": "BCK438",
+    "handle": "pedal-mtb-plataforma-color-3",
+    "name": "Pedal mtb plataforma color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK514::Pedal mtb plataforma color": {
+    "product_id": "BCK514",
+    "handle": "pedal-mtb-plataforma-color-4",
+    "name": "Pedal mtb plataforma color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK515::Pedal mtb plataforma color": {
+    "product_id": "BCK515",
+    "handle": "pedal-mtb-plataforma-color-5",
+    "name": "Pedal mtb plataforma color",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK790-12::Pets Pbici colores N°12": {
+    "product_id": "BCK790-12",
+    "handle": "pets-pbici-colores-n-12",
+    "name": "Pets Pbici colores N°12",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK790-15::Pets Pbici colores N°15": {
+    "product_id": "BCK790-15",
+    "handle": "pets-pbici-colores-n-15",
+    "name": "Pets Pbici colores N°15",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK298::Protecciones adhesivas Pmarco": {
+    "product_id": "BCK298",
+    "handle": "protecciones-adhesivas-pmarco",
+    "name": "Protecciones adhesivas Pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK453::Protector Ddowntube x 2 Enlee": {
+    "product_id": "BCK453",
+    "handle": "protector-ddowntube-x-2-enlee",
+    "name": "Protector Ddowntube x 2 Enlee",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK728::Protector Pbiela extra": {
+    "product_id": "BCK728",
+    "handle": "protector-pbiela-extra",
+    "name": "Protector Pbiela extra",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK321::Protector Pmarco cadena ajust color": {
+    "product_id": "BCK321",
+    "handle": "protector-pmarco-cadena-ajust-color",
+    "name": "Protector Pmarco cadena ajust color",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK444::Protector Pmarco de cadena Enlee": {
+    "product_id": "BCK444",
+    "handle": "protector-pmarco-de-cadena-enlee",
+    "name": "Protector Pmarco de cadena Enlee",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK455::Protector Ptensor": {
+    "product_id": "BCK455",
+    "handle": "protector-ptensor",
+    "name": "Protector Ptensor",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK725::Protector downtube Pmarco": {
+    "product_id": "BCK725",
+    "handle": "protector-downtube-pmarco",
+    "name": "Protector downtube Pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK506::Protector palancas para freno colores": {
+    "product_id": "BCK506",
+    "handle": "protector-palancas-para-freno-colores-2",
+    "name": "Protector palancas para freno colores",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK093::Protector para biela silicona": {
+    "product_id": "BCK093",
+    "handle": "protector-para-biela-silicona",
+    "name": "Protector para biela silicona",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK599::Retenedores PSuspension": {
+    "product_id": "BCK599",
+    "handle": "retenedores-psuspension",
+    "name": "Retenedores PSuspension",
+    "tipo": "Suspensión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK613::Retrovisor Pbici escualizable": {
+    "product_id": "BCK613",
+    "handle": "retrovisor-pbici-escualizable",
+    "name": "Retrovisor Pbici escualizable",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK614::Retrovisor Pbici escualizable": {
+    "product_id": "BCK614",
+    "handle": "retrovisor-pbici-escualizable-2",
+    "name": "Retrovisor Pbici escualizable",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK796::Retrovisor Pbici escualizable 360°": {
+    "product_id": "BCK796",
+    "handle": "retrovisor-pbici-escualizable-360",
+    "name": "Retrovisor Pbici escualizable 360°",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK795::Retrovisor Pbici escualizable mango": {
+    "product_id": "BCK795",
+    "handle": "retrovisor-pbici-escualizable-mango",
+    "name": "Retrovisor Pbici escualizable mango",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK794::Retrovisor Pbici escualizable manubrio": {
+    "product_id": "BCK794",
+    "handle": "retrovisor-pbici-escualizable-manubrio",
+    "name": "Retrovisor Pbici escualizable manubrio",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK747::Rodaja PTensor colores": {
+    "product_id": "BCK747",
+    "handle": "rodaja-ptensor-colores",
+    "name": "Rodaja PTensor colores",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK436::Rotor Mtb 180mm tornasol": {
+    "product_id": "BCK436",
+    "handle": "rotor-mtb-180mm-tornasol",
+    "name": "Rotor Mtb 180mm tornasol",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK499::Rotor center 140mm": {
+    "product_id": "BCK499",
+    "handle": "rotor-center-140mm",
+    "name": "Rotor center 140mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK500::Rotor center 160mm": {
+    "product_id": "BCK500",
+    "handle": "rotor-center-160mm",
+    "name": "Rotor center 160mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK501::Rotor center 180mm": {
+    "product_id": "BCK501",
+    "handle": "rotor-center-180mm",
+    "name": "Rotor center 180mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK426::Rotor flotante 160mm Negro": {
+    "product_id": "BCK426",
+    "handle": "rotor-flotante-160mm-negro",
+    "name": "Rotor flotante 160mm Negro",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK601::Rotor mtb 120mm": {
+    "product_id": "BCK601",
+    "handle": "rotor-mtb-120mm",
+    "name": "Rotor mtb 120mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK378::Rotor mtb 160mm": {
+    "product_id": "BCK378",
+    "handle": "rotor-mtb-160mm",
+    "name": "Rotor mtb 160mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK437::Rotor mtb 160mm": {
+    "product_id": "BCK437",
+    "handle": "rotor-mtb-160mm-2",
+    "name": "Rotor mtb 160mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK379::Rotor mtb 180mm": {
+    "product_id": "BCK379",
+    "handle": "rotor-mtb-180mm-2",
+    "name": "Rotor mtb 180mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK496::Rotor mtb T-S 160mm silver": {
+    "product_id": "BCK496",
+    "handle": "rotor-mtb-t-s-160mm-silver",
+    "name": "Rotor mtb T-S 160mm silver",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK497::Rotor mtb T-S 180mm silver": {
+    "product_id": "BCK497",
+    "handle": "rotor-mtb-t-s-180mm-silver",
+    "name": "Rotor mtb T-S 180mm silver",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK389::Rotor mtb center 180mm": {
+    "product_id": "BCK389",
+    "handle": "rotor-mtb-center-180mm",
+    "name": "Rotor mtb center 180mm",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK522::Silla mtb antipros": {
+    "product_id": "BCK522",
+    "handle": "silla-mtb-antipros",
+    "name": "Silla mtb antipros",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK523::Silla mtb antipros color": {
+    "product_id": "BCK523",
+    "handle": "silla-mtb-antipros-color",
+    "name": "Silla mtb antipros color",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK744::Silla mtb antipros gel": {
+    "product_id": "BCK744",
+    "handle": "silla-mtb-antipros-gel",
+    "name": "Silla mtb antipros gel",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK792::Silla mtb clickluz": {
+    "product_id": "BCK792",
+    "handle": "silla-mtb-clickluz",
+    "name": "Silla mtb clickluz",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK742::Silla mtb ergo gel": {
+    "product_id": "BCK742",
+    "handle": "silla-mtb-ergo-gel",
+    "name": "Silla mtb ergo gel",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK524::Silla mtb luz incorp gel": {
+    "product_id": "BCK524",
+    "handle": "silla-mtb-luz-incorp-gel",
+    "name": "Silla mtb luz incorp gel",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK791::Silla mtb luz incorp gel": {
+    "product_id": "BCK791",
+    "handle": "silla-mtb-luz-incorp-gel-2",
+    "name": "Silla mtb luz incorp gel",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK526::Soporte PBici alum pared": {
+    "product_id": "BCK526",
+    "handle": "soporte-pbici-alum-pared",
+    "name": "Soporte PBici alum pared",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK285::Soporte PCaramañola multipro": {
+    "product_id": "BCK285",
+    "handle": "soporte-pcaramanola-multipro",
+    "name": "Soporte PCaramañola multipro",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK623::Soporte PLuz": {
+    "product_id": "BCK623",
+    "handle": "soporte-pluz",
+    "name": "Soporte PLuz",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK624::Soporte PLuz": {
+    "product_id": "BCK624",
+    "handle": "soporte-pluz-2",
+    "name": "Soporte PLuz",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK446::Soporte Pcaramañola Enlee colores": {
+    "product_id": "BCK446",
+    "handle": "soporte-pcaramanola-enlee-colores",
+    "name": "Soporte Pcaramañola Enlee colores",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK427::Soporte Pcaramañola alum Enlee": {
+    "product_id": "BCK427",
+    "handle": "soporte-pcaramanola-alum-enlee",
+    "name": "Soporte Pcaramañola alum Enlee",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK405::Soporte Pcaramañola color": {
+    "product_id": "BCK405",
+    "handle": "soporte-pcaramanola-color-2",
+    "name": "Soporte Pcaramañola color",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK388::Soporte Pcaramañola doble alum": {
+    "product_id": "BCK388",
+    "handle": "soporte-pcaramanola-doble-alum",
+    "name": "Soporte Pcaramañola doble alum",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK709::Soporte Pcaramañola plast": {
+    "product_id": "BCK709",
+    "handle": "soporte-pcaramanola-plast",
+    "name": "Soporte Pcaramañola plast",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK404::Soporte Pcaramañola trasluc": {
+    "product_id": "BCK404",
+    "handle": "soporte-pcaramanola-trasluc",
+    "name": "Soporte Pcaramañola trasluc",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK406::Soporte Pcelular multipro": {
+    "product_id": "BCK406",
+    "handle": "soporte-pcelular-multipro",
+    "name": "Soporte Pcelular multipro",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK685::Soporte Pcámara 360°": {
+    "product_id": "BCK685",
+    "handle": "soporte-pcamara-360",
+    "name": "Soporte Pcámara 360°",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK767::Soporte Pluz - garmin": {
+    "product_id": "BCK767",
+    "handle": "soporte-pluz-garmin",
+    "name": "Soporte Pluz - garmin",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::SP029::Soporte caramañola banda elastica": {
+    "product_id": "SP029",
+    "handle": "soporte-caramanola-banda-elastica",
+    "name": "Soporte caramañola banda elastica",
+    "tipo": "Hidratación",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK521::Soporte celular silicona": {
+    "product_id": "BCK521",
+    "handle": "soporte-celular-silicona",
+    "name": "Soporte celular silicona",
+    "tipo": "Soportes y portacelular",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK445::Stickers reflectivos Enlee bici": {
+    "product_id": "BCK445",
+    "handle": "stickers-reflectivos-enlee-bici",
+    "name": "Stickers reflectivos Enlee bici",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK443::Tapa Pcodo diseños": {
+    "product_id": "BCK443",
+    "handle": "tapa-pcodo-disenos",
+    "name": "Tapa Pcodo diseños",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK101::Tensor Pmtb Rojo": {
+    "product_id": "BCK101",
+    "handle": "tensor-pmtb-rojo",
+    "name": "Tensor Pmtb Rojo",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK694::Tensor extralargo": {
+    "product_id": "BCK694",
+    "handle": "tensor-extralargo",
+    "name": "Tensor extralargo",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK793::Tensor mtb P11vel": {
+    "product_id": "BCK793",
+    "handle": "tensor-mtb-p11vel",
+    "name": "Tensor mtb P11vel",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK234::Tensor mtb TY": {
+    "product_id": "BCK234",
+    "handle": "tensor-mtb-ty",
+    "name": "Tensor mtb TY",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK308::Terminal Pfunda x 500pcs": {
+    "product_id": "BCK308",
+    "handle": "terminal-pfunda-x-500pcs",
+    "name": "Terminal Pfunda x 500pcs",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK307::Termunal Pguaya x 200pcs color": {
+    "product_id": "BCK307",
+    "handle": "termunal-pguaya-x-200pcs-color",
+    "name": "Termunal Pguaya x 200pcs color",
+    "tipo": "Transmisión",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK403::Tornillos lujo alum colores": {
+    "product_id": "BCK403",
+    "handle": "tornillos-lujo-alum-colores",
+    "name": "Tornillos lujo alum colores",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK037::Vejiga repuesto hydropack 2L": {
+    "product_id": "BCK037",
+    "handle": "vejiga-repuesto-hydropack-2l",
+    "name": "Vejiga repuesto hydropack 2L",
+    "tipo": "Bolsos",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK508::Velocímetro inhalambrico multifun": {
+    "product_id": "BCK508",
+    "handle": "velocimetro-inhalambrico-multifun",
+    "name": "Velocímetro inhalambrico multifun",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK246::Zapatas bristol mtb": {
+    "product_id": "BCK246",
+    "handle": "zapatas-bristol-mtb",
+    "name": "Zapatas bristol mtb",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK607::Zapatas mtb bris color": {
+    "product_id": "BCK607",
+    "handle": "zapatas-mtb-bris-color",
+    "name": "Zapatas mtb bris color",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK608::Zapatas mtb bris negro": {
+    "product_id": "BCK608",
+    "handle": "zapatas-mtb-bris-negro",
+    "name": "Zapatas mtb bris negro",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK540::neumatico para moto 300 - 17": {
+    "product_id": "BCK540",
+    "handle": "neumatico-para-moto-300-17",
+    "name": "neumatico para moto 300 - 17",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "6-CL::BCK539::neumatico para moto 300 - 18": {
+    "product_id": "BCK539",
+    "handle": "neumatico-para-moto-300-18",
+    "name": "neumatico para moto 300 - 18",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "6-CL"
+  },
+  "GUANTES::BCK034::Guante mtb colores corto": {
+    "product_id": "BCK034",
+    "handle": "guante-mtb-colores-corto",
+    "name": "Guante mtb colores corto",
+    "tipo": "Guantes",
+    "codigo_interno": "GUANTES"
+  },
+  "GUANTES::BCK064::Guante mtb colores corto": {
+    "product_id": "BCK064",
+    "handle": "guante-mtb-colores-corto-2",
+    "name": "Guante mtb colores corto",
+    "tipo": "Guantes",
+    "codigo_interno": "GUANTES"
+  },
+  "PASTILLAS::BCK002::Pastilla compatible shimano": {
+    "product_id": "BCK002",
+    "handle": "pastilla-compatible-shimano-2",
+    "name": "Pastilla compatible shimano",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK552-1::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK552-1",
+    "handle": "pastillas-pfreno-disco-semimetalicas",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK552-2::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK552-2",
+    "handle": "pastillas-pfreno-disco-semimetalicas-2",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK553-1::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK553-1",
+    "handle": "pastillas-pfreno-disco-semimetalicas-3",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK553-2::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK553-2",
+    "handle": "pastillas-pfreno-disco-semimetalicas-4",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK554-1::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK554-1",
+    "handle": "pastillas-pfreno-disco-semimetalicas-5",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK554-2::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK554-2",
+    "handle": "pastillas-pfreno-disco-semimetalicas-6",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK555-1::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK555-1",
+    "handle": "pastillas-pfreno-disco-semimetalicas-7",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK555-2::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK555-2",
+    "handle": "pastillas-pfreno-disco-semimetalicas-8",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK556-1::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK556-1",
+    "handle": "pastillas-pfreno-disco-semimetalicas-9",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK556-2::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK556-2",
+    "handle": "pastillas-pfreno-disco-semimetalicas-10",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK557::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK557",
+    "handle": "pastillas-pfreno-disco-semimetalicas-11",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK558::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK558",
+    "handle": "pastillas-pfreno-disco-semimetalicas-12",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK559::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK559",
+    "handle": "pastillas-pfreno-disco-semimetalicas-13",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK560::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK560",
+    "handle": "pastillas-pfreno-disco-semimetalicas-14",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK563::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK563",
+    "handle": "pastillas-pfreno-disco-semimetalicas-15",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK565::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK565",
+    "handle": "pastillas-pfreno-disco-semimetalicas-16",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK566::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK566",
+    "handle": "pastillas-pfreno-disco-semimetalicas-17",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK567::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK567",
+    "handle": "pastillas-pfreno-disco-semimetalicas-18",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK568::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK568",
+    "handle": "pastillas-pfreno-disco-semimetalicas-19",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK569::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK569",
+    "handle": "pastillas-pfreno-disco-semimetalicas-20",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK602::Pastillas Pfreno disco semimetalicas": {
+    "product_id": "BCK602",
+    "handle": "pastillas-pfreno-disco-semimetalicas-21",
+    "name": "Pastillas Pfreno disco semimetalicas",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK088::Pastillas comp shimano": {
+    "product_id": "BCK088",
+    "handle": "pastillas-comp-shimano",
+    "name": "Pastillas comp shimano",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PASTILLAS::BCK498::Pastillas mtb Pfreno disco": {
+    "product_id": "BCK498",
+    "handle": "pastillas-mtb-pfreno-disco",
+    "name": "Pastillas mtb Pfreno disco",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PASTILLAS"
+  },
+  "PITILLOS::SIN_ID::1 Gris": {
+    "product_id": "SIN_ID",
+    "handle": "1-gris",
+    "name": "1 Gris",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::10 Naranja": {
+    "product_id": "SIN_ID",
+    "handle": "10-naranja",
+    "name": "10 Naranja",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::11 Fucsia": {
+    "product_id": "SIN_ID",
+    "handle": "11-fucsia",
+    "name": "11 Fucsia",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::12 Verde manzana": {
+    "product_id": "SIN_ID",
+    "handle": "12-verde-manzana",
+    "name": "12 Verde manzana",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::13 Blanco": {
+    "product_id": "SIN_ID",
+    "handle": "13-blanco",
+    "name": "13 Blanco",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::14 Amarillo pollito": {
+    "product_id": "SIN_ID",
+    "handle": "14-amarillo-pollito",
+    "name": "14 Amarillo pollito",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::15 Rosado": {
+    "product_id": "SIN_ID",
+    "handle": "15-rosado",
+    "name": "15 Rosado",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::16 Violeta": {
+    "product_id": "SIN_ID",
+    "handle": "16-violeta",
+    "name": "16 Violeta",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::17 Azul futura": {
+    "product_id": "SIN_ID",
+    "handle": "17-azul-futura",
+    "name": "17 Azul futura",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::18 Verde menta": {
+    "product_id": "SIN_ID",
+    "handle": "18-verde-menta",
+    "name": "18 Verde menta",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::19 Verde griego": {
+    "product_id": "SIN_ID",
+    "handle": "19-verde-griego",
+    "name": "19 Verde griego",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::2 Amarillo bandera": {
+    "product_id": "SIN_ID",
+    "handle": "2-amarillo-bandera",
+    "name": "2 Amarillo bandera",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::20 Verde falabella": {
+    "product_id": "SIN_ID",
+    "handle": "20-verde-falabella",
+    "name": "20 Verde falabella",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::21 Verde militar": {
+    "product_id": "SIN_ID",
+    "handle": "21-verde-militar",
+    "name": "21 Verde militar",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::22 Magenta": {
+    "product_id": "SIN_ID",
+    "handle": "22-magenta",
+    "name": "22 Magenta",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::23 Verde oscuro": {
+    "product_id": "SIN_ID",
+    "handle": "23-verde-oscuro",
+    "name": "23 Verde oscuro",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::24 Psicodelico": {
+    "product_id": "SIN_ID",
+    "handle": "24-psicodelico",
+    "name": "24 Psicodelico",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::25 Uva": {
+    "product_id": "SIN_ID",
+    "handle": "25-uva",
+    "name": "25 Uva",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::26 Bronce": {
+    "product_id": "SIN_ID",
+    "handle": "26-bronce",
+    "name": "26 Bronce",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::3 Azul oscuro": {
+    "product_id": "SIN_ID",
+    "handle": "3-azul-oscuro",
+    "name": "3 Azul oscuro",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::4 negro": {
+    "product_id": "SIN_ID",
+    "handle": "4-negro",
+    "name": "4 negro",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::5 Dorado": {
+    "product_id": "SIN_ID",
+    "handle": "5-dorado",
+    "name": "5 Dorado",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::6 amarillo neón": {
+    "product_id": "SIN_ID",
+    "handle": "6-amarillo-neon",
+    "name": "6 amarillo neón",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::7 Morado": {
+    "product_id": "SIN_ID",
+    "handle": "7-morado",
+    "name": "7 Morado",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::8 Azul claro": {
+    "product_id": "SIN_ID",
+    "handle": "8-azul-claro",
+    "name": "8 Azul claro",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::9 Rojo": {
+    "product_id": "SIN_ID",
+    "handle": "9-rojo",
+    "name": "9 Rojo",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::Pitillos fotoluminicentes": {
+    "product_id": "SIN_ID",
+    "handle": "pitillos-fotoluminicentes",
+    "name": "Pitillos fotoluminicentes",
+    "tipo": "Luces",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::Presentacion cubierta para funda 1 Precio": {
+    "product_id": "SIN_ID",
+    "handle": "presentacion-cubierta-para-funda-1-precio",
+    "name": "Presentacion cubierta para funda 1 Precio",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PITILLOS::SIN_ID::Presentacion cubierta para funda 2": {
+    "product_id": "SIN_ID",
+    "handle": "presentacion-cubierta-para-funda-2",
+    "name": "Presentacion cubierta para funda 2",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PITILLOS"
+  },
+  "PREVENTA 2025::BCK810::Ejes Pmanzanas x par TORNA": {
+    "product_id": "BCK810",
+    "handle": "ejes-pmanzanas-x-par-torna",
+    "name": "Ejes Pmanzanas x par TORNA",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::BCK774-1::Espaciador Tornasol": {
+    "product_id": "BCK774-1",
+    "handle": "espaciador-tornasol-2",
+    "name": "Espaciador Tornasol",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::BCK801::Luz tras comet dual color": {
+    "product_id": "BCK801",
+    "handle": "luz-tras-comet-dual-color",
+    "name": "Luz tras comet dual color",
+    "tipo": "Luces",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::BCK809::Manzanas 3 trinquetes par torna": {
+    "product_id": "BCK809",
+    "handle": "manzanas-3-trinquetes-par-torna",
+    "name": "Manzanas 3 trinquetes par torna",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::BCK649::Pedal mtb luz recargable": {
+    "product_id": "BCK649",
+    "handle": "pedal-mtb-luz-recargable",
+    "name": "Pedal mtb luz recargable",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::SIN_ID::Postes de silla colores rojo azul - negr morado bck 802 - 803 - 804 PRECIOS APROX22500": {
+    "product_id": "SIN_ID",
+    "handle": "postes-de-silla-colores-rojo-azul-negr-morado-bck-802-803-804-precios-aprox22500",
+    "name": "Postes de silla colores rojo azul - negr morado bck 802 - 803 - 804 PRECIOS APROX22500",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PREVENTA 2025::SIN_ID::Suspension BCK805": {
+    "product_id": "SIN_ID",
+    "handle": "suspension-bck805",
+    "name": "Suspension BCK805",
+    "tipo": "Suspensión",
+    "codigo_interno": "PREVENTA 2025"
+  },
+  "PRODUCTOS P 2025::CAN304::Caña PSilla alum 30,4": {
+    "product_id": "CAN304",
+    "handle": "cana-psilla-alum-30-4",
+    "name": "Caña PSilla alum 30,4",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::RDB45::Rin mtb 36h DB45 R26": {
+    "product_id": "RDB45",
+    "handle": "rin-mtb-36h-db45-r26",
+    "name": "Rin mtb 36h DB45 R26",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::SX089::Sillin mtb antipros": {
+    "product_id": "SX089",
+    "handle": "sillin-mtb-antipros",
+    "name": "Sillin mtb antipros",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::SX104::Sillin mtb antipros color": {
+    "product_id": "SX104",
+    "handle": "sillin-mtb-antipros-color",
+    "name": "Sillin mtb antipros color",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::SX028::Sillin playero resorte": {
+    "product_id": "SX028",
+    "handle": "sillin-playero-resorte",
+    "name": "Sillin playero resorte",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::SR26::Suspension R26 tornasol stump aire": {
+    "product_id": "SR26",
+    "handle": "suspension-r26-tornasol-stump-aire",
+    "name": "Suspension R26 tornasol stump aire",
+    "tipo": "Suspensión",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUCTOS P 2025::SR29::Suspension R29 tornasol": {
+    "product_id": "SR29",
+    "handle": "suspension-r29-tornasol",
+    "name": "Suspension R29 tornasol",
+    "tipo": "Suspensión",
+    "codigo_interno": "PRODUCTOS P 2025"
+  },
+  "PRODUTOS TORNASOL::BCK698::Abrazadera alum tornasol": {
+    "product_id": "BCK698",
+    "handle": "abrazadera-alum-tornasol",
+    "name": "Abrazadera alum tornasol",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK489::Caña Pmtb 31,6 x 380mm tornasol": {
+    "product_id": "BCK489",
+    "handle": "cana-pmtb-31-6-x-380mm-tornasol",
+    "name": "Caña Pmtb 31,6 x 380mm tornasol",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK749::Codo Mtb alum 35mm tornasol": {
+    "product_id": "BCK749",
+    "handle": "codo-mtb-alum-35mm-tornasol-3",
+    "name": "Codo Mtb alum 35mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK442::Codo Mtb alum 45mm torna": {
+    "product_id": "BCK442",
+    "handle": "codo-mtb-alum-45mm-torna",
+    "name": "Codo Mtb alum 45mm torna",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK395-2::Codo Mtb alum 80mm tornasol": {
+    "product_id": "BCK395-2",
+    "handle": "codo-mtb-alum-80mm-tornasol",
+    "name": "Codo Mtb alum 80mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK726::Codo mtb alum 45mm tornasol": {
+    "product_id": "BCK726",
+    "handle": "codo-mtb-alum-45mm-tornasol-2",
+    "name": "Codo mtb alum 45mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK430::MANZANAS CAS MTB 36h torna": {
+    "product_id": "BCK430",
+    "handle": "manzanas-cas-mtb-36h-torna",
+    "name": "MANZANAS CAS MTB 36h torna",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK723::Mangos mtb anillos torna": {
+    "product_id": "BCK723",
+    "handle": "mangos-mtb-anillos-torna",
+    "name": "Mangos mtb anillos torna",
+    "tipo": "Mangos y grips",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK721::Manubrio mtb 45° torna": {
+    "product_id": "BCK721",
+    "handle": "manubrio-mtb-45-torna",
+    "name": "Manubrio mtb 45° torna",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK490::Manubrio mtb alum 800 mm tornasol": {
+    "product_id": "BCK490",
+    "handle": "manubrio-mtb-alum-800-mm-tornasol",
+    "name": "Manubrio mtb alum 800 mm tornasol",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK699::Manzanas MTB 36h 6trq Torna": {
+    "product_id": "BCK699",
+    "handle": "manzanas-mtb-36h-6trq-torna",
+    "name": "Manzanas MTB 36h 6trq Torna",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK751::Pedal Mtb plataforma torna": {
+    "product_id": "BCK751",
+    "handle": "pedal-mtb-plataforma-torna-2",
+    "name": "Pedal Mtb plataforma torna",
+    "tipo": "Pedales y calas",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::RJ055::Rodaja Alum tensor torna 11T": {
+    "product_id": "RJ055",
+    "handle": "rodaja-alum-tensor-torna-11t",
+    "name": "Rodaja Alum tensor torna 11T",
+    "tipo": "Transmisión",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::RJ057::Rodaja Alum tensor torna 13T": {
+    "product_id": "RJ057",
+    "handle": "rodaja-alum-tensor-torna-13t",
+    "name": "Rodaja Alum tensor torna 13T",
+    "tipo": "Transmisión",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK435::Rotor Mtb 160mm tornasol": {
+    "product_id": "BCK435",
+    "handle": "rotor-mtb-160mm-tornasol",
+    "name": "Rotor Mtb 160mm tornasol",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK400::Rotor Mtb 180mm tornasol": {
+    "product_id": "BCK400",
+    "handle": "rotor-mtb-180mm-tornasol-2",
+    "name": "Rotor Mtb 180mm tornasol",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK425::Rotor flotante 160mm torna": {
+    "product_id": "BCK425",
+    "handle": "rotor-flotante-160mm-torna",
+    "name": "Rotor flotante 160mm torna",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK494::Rotor mtb T-S 160mm tornasol": {
+    "product_id": "BCK494",
+    "handle": "rotor-mtb-t-s-160mm-tornasol",
+    "name": "Rotor mtb T-S 160mm tornasol",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK495::Rotor mtb T-S 180mm tornasol": {
+    "product_id": "BCK495",
+    "handle": "rotor-mtb-t-s-180mm-tornasol",
+    "name": "Rotor mtb T-S 180mm tornasol",
+    "tipo": "Frenos, pastillas y rotores",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK737::Silla mtb tornasol": {
+    "product_id": "BCK737",
+    "handle": "silla-mtb-tornasol",
+    "name": "Silla mtb tornasol",
+    "tipo": "Sillines y tijas",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::SP022::Soporte PCaramañola alum tornasol": {
+    "product_id": "SP022",
+    "handle": "soporte-pcaramanola-alum-tornasol",
+    "name": "Soporte PCaramañola alum tornasol",
+    "tipo": "Hidratación",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK200::Soporte caramañola alum tornasol": {
+    "product_id": "BCK200",
+    "handle": "soporte-caramanola-alum-tornasol",
+    "name": "Soporte caramañola alum tornasol",
+    "tipo": "Hidratación",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK280::Tapa PSuspension tornasol": {
+    "product_id": "BCK280",
+    "handle": "tapa-psuspension-tornasol",
+    "name": "Tapa PSuspension tornasol",
+    "tipo": "Suspensión",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK758::Tapa alum PBiela torna": {
+    "product_id": "BCK758",
+    "handle": "tapa-alum-pbiela-torna",
+    "name": "Tapa alum PBiela torna",
+    "tipo": "Transmisión",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::TPX010::Tapones alum para manubrio torna": {
+    "product_id": "TPX010",
+    "handle": "tapones-alum-para-manubrio-torna",
+    "name": "Tapones alum para manubrio torna",
+    "tipo": "Accesorios de manubrio",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK688::Tapón Pvalvula Tronasol": {
+    "product_id": "BCK688",
+    "handle": "tapon-pvalvula-tronasol",
+    "name": "Tapón Pvalvula Tronasol",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK689::Tapón Pvalvula Tronasol": {
+    "product_id": "BCK689",
+    "handle": "tapon-pvalvula-tronasol-2",
+    "name": "Tapón Pvalvula Tronasol",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK690::Tapón Pvalvula Tronasol": {
+    "product_id": "BCK690",
+    "handle": "tapon-pvalvula-tronasol-3",
+    "name": "Tapón Pvalvula Tronasol",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK691::Tapón Pvalvula Tronasol": {
+    "product_id": "BCK691",
+    "handle": "tapon-pvalvula-tronasol-4",
+    "name": "Tapón Pvalvula Tronasol",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK748::Tornillos alum PCodo 18mm Torna": {
+    "product_id": "BCK748",
+    "handle": "tornillos-alum-pcodo-18mm-torna",
+    "name": "Tornillos alum PCodo 18mm Torna",
+    "tipo": "Manubrios y potencias",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::BCK402::Tornillos lujo alum tornasol": {
+    "product_id": "BCK402",
+    "handle": "tornillos-lujo-alum-tornasol",
+    "name": "Tornillos lujo alum tornasol",
+    "tipo": "Otros / por clasificar",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "PRODUTOS TORNASOL::VAL44::Valvula al Ptubeless oil slick": {
+    "product_id": "VAL44",
+    "handle": "valvula-al-ptubeless-oil-slick",
+    "name": "Valvula al Ptubeless oil slick",
+    "tipo": "Llantas, rines y aros",
+    "codigo_interno": "PRODUTOS TORNASOL"
+  },
+  "UÑAS::PM001::Punta pmarco": {
+    "product_id": "PM001",
+    "handle": "punta-pmarco",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM012::Punta pmarco": {
+    "product_id": "PM012",
+    "handle": "punta-pmarco-2",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM578::Punta pmarco": {
+    "product_id": "PM578",
+    "handle": "punta-pmarco-3",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM005::Punta pmarco": {
+    "product_id": "PM005",
+    "handle": "punta-pmarco-4",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM586::Punta pmarco": {
+    "product_id": "PM586",
+    "handle": "punta-pmarco-5",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM014::Punta pmarco": {
+    "product_id": "PM014",
+    "handle": "punta-pmarco-6",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM006::Punta pmarco": {
+    "product_id": "PM006",
+    "handle": "punta-pmarco-7",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM007::Punta pmarco": {
+    "product_id": "PM007",
+    "handle": "punta-pmarco-8",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM576::Punta pmarco": {
+    "product_id": "PM576",
+    "handle": "punta-pmarco-9",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM009::Punta pmarco": {
+    "product_id": "PM009",
+    "handle": "punta-pmarco-10",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM010::Punta pmarco": {
+    "product_id": "PM010",
+    "handle": "punta-pmarco-11",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM570::Punta pmarco": {
+    "product_id": "PM570",
+    "handle": "punta-pmarco-12",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM011::Punta pmarco": {
+    "product_id": "PM011",
+    "handle": "punta-pmarco-13",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM015::Punta pmarco": {
+    "product_id": "PM015",
+    "handle": "punta-pmarco-14",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM571::Punta pmarco": {
+    "product_id": "PM571",
+    "handle": "punta-pmarco-15",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM018::Punta pmarco": {
+    "product_id": "PM018",
+    "handle": "punta-pmarco-16",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM016::Punta pmarco": {
+    "product_id": "PM016",
+    "handle": "punta-pmarco-17",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM572::Punta pmarco": {
+    "product_id": "PM572",
+    "handle": "punta-pmarco-18",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM003::Punta pmarco": {
+    "product_id": "PM003",
+    "handle": "punta-pmarco-19",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM020::Punta pmarco": {
+    "product_id": "PM020",
+    "handle": "punta-pmarco-20",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM573::Punta pmarco": {
+    "product_id": "PM573",
+    "handle": "punta-pmarco-21",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM575::Punta pmarco": {
+    "product_id": "PM575",
+    "handle": "punta-pmarco-22",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM577::Punta pmarco": {
+    "product_id": "PM577",
+    "handle": "punta-pmarco-23",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM580::Punta pmarco": {
+    "product_id": "PM580",
+    "handle": "punta-pmarco-24",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM582::Punta pmarco": {
+    "product_id": "PM582",
+    "handle": "punta-pmarco-25",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM631::Punta pmarco": {
+    "product_id": "PM631",
+    "handle": "punta-pmarco-26",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM632::Punta pmarco": {
+    "product_id": "PM632",
+    "handle": "punta-pmarco-27",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM633::Punta pmarco": {
+    "product_id": "PM633",
+    "handle": "punta-pmarco-28",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM634::Punta pmarco": {
+    "product_id": "PM634",
+    "handle": "punta-pmarco-29",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM635::Punta pmarco": {
+    "product_id": "PM635",
+    "handle": "punta-pmarco-30",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM637::Punta pmarco": {
+    "product_id": "PM637",
+    "handle": "punta-pmarco-31",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM639::Punta pmarco": {
+    "product_id": "PM639",
+    "handle": "punta-pmarco-32",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM640::Punta pmarco": {
+    "product_id": "PM640",
+    "handle": "punta-pmarco-33",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM641::Punta pmarco": {
+    "product_id": "PM641",
+    "handle": "punta-pmarco-34",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM642::Punta pmarco": {
+    "product_id": "PM642",
+    "handle": "punta-pmarco-35",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM583::Punta pmarco": {
+    "product_id": "PM583",
+    "handle": "punta-pmarco-36",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM643::Punta pmarco": {
+    "product_id": "PM643",
+    "handle": "punta-pmarco-37",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM645::Punta pmarco": {
+    "product_id": "PM645",
+    "handle": "punta-pmarco-38",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM646::Punta pmarco": {
+    "product_id": "PM646",
+    "handle": "punta-pmarco-39",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM667::Punta pmarco": {
+    "product_id": "PM667",
+    "handle": "punta-pmarco-40",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM777::Punta pmarco": {
+    "product_id": "PM777",
+    "handle": "punta-pmarco-41",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM778::Punta pmarco": {
+    "product_id": "PM778",
+    "handle": "punta-pmarco-42",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM781::Punta pmarco": {
+    "product_id": "PM781",
+    "handle": "punta-pmarco-43",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM782::Punta pmarco": {
+    "product_id": "PM782",
+    "handle": "punta-pmarco-44",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM784::Punta pmarco": {
+    "product_id": "PM784",
+    "handle": "punta-pmarco-45",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM785::Punta pmarco": {
+    "product_id": "PM785",
+    "handle": "punta-pmarco-46",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM584::Punta pmarco": {
+    "product_id": "PM584",
+    "handle": "punta-pmarco-47",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM786::Punta pmarco": {
+    "product_id": "PM786",
+    "handle": "punta-pmarco-48",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM787::Punta pmarco": {
+    "product_id": "PM787",
+    "handle": "punta-pmarco-49",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM788::Punta pmarco": {
+    "product_id": "PM788",
+    "handle": "punta-pmarco-50",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM789::Punta pmarco": {
+    "product_id": "PM789",
+    "handle": "punta-pmarco-51",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM585::Punta pmarco": {
+    "product_id": "PM585",
+    "handle": "punta-pmarco-52",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM587::Punta pmarco": {
+    "product_id": "PM587",
+    "handle": "punta-pmarco-53",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM588::Punta pmarco": {
+    "product_id": "PM588",
+    "handle": "punta-pmarco-54",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM589::Punta pmarco": {
+    "product_id": "PM589",
+    "handle": "punta-pmarco-55",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM590::Punta pmarco": {
+    "product_id": "PM590",
+    "handle": "punta-pmarco-56",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  },
+  "UÑAS::PM591::Punta pmarco": {
+    "product_id": "PM591",
+    "handle": "punta-pmarco-57",
+    "name": "Punta pmarco",
+    "tipo": "Protección de cuadro",
+    "codigo_interno": "UÑAS"
+  }
+}
