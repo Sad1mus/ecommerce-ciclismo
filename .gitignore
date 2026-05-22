@@ -22,6 +22,7 @@ venv/
 # Logs / temp
 *.log
 .DS_Store
+.devlogs/
 
 # Datos generados (se regeneran desde el CSV con normalize_inventory.py)
 data/inventario.json

@@ -89,6 +89,61 @@ def medusa_cfg():
     return {"base": base, "pk": pk, "region_id": region_id}
 
 
+@pytest.fixture(scope="session")
+def admin_token(medusa_cfg):
+    """Token de la Admin API autenticando con credenciales de DEV (env).
+
+    Hace SKIP si no hay credenciales: el E2E sigue siendo ejecutable sin Admin.
+    """
+    email = os.environ.get("MEDUSA_ADMIN_EMAIL")
+    password = os.environ.get("MEDUSA_ADMIN_PASSWORD")
+    if not email or not password:
+        pytest.skip("Sin MEDUSA_ADMIN_EMAIL/PASSWORD para la Admin API")
+    resp = requests.post(
+        f"{medusa_cfg['base']}/auth/user/emailpass",
+        json={"email": email, "password": password},
+        timeout=10,
+    )
+    if resp.status_code != 200:
+        pytest.skip(f"Auth admin fallida ({resp.status_code})")
+    token = resp.json().get("token")
+    if not token:
+        pytest.skip("Auth admin sin token")
+    return token
+
+
+def admin_stocked_quantity(cfg, token, query):
+    """stocked_quantity REAL desde la Admin API para el primer variante que matchee.
+
+    Devuelve dict {sku: stocked_quantity} de los location levels. Esta es la
+    'fuente de verdad' del inventario en la DB (lo que la bodega tiene fisicamente).
+    """
+    resp = requests.get(
+        f"{cfg['base']}/admin/products",
+        params={
+            "q": query,
+            "limit": "5",
+            "fields": "title,*variants,*variants.inventory_items.inventory.location_levels",
+        },
+        headers={"Authorization": f"Bearer {token}"},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    out = {}
+    for p in resp.json().get("products", []):
+        for v in p.get("variants", []) or []:
+            sku = v.get("sku")
+            if not sku:
+                continue
+            total = 0
+            for ii in v.get("inventory_items", []) or []:
+                inv = ii.get("inventory") or {}
+                for lvl in inv.get("location_levels", []) or []:
+                    total += int(lvl.get("stocked_quantity") or 0)
+            out[sku] = total
+    return out
+
+
 def store_products(cfg, limit=20, query=None):
     """Llamada CRUDA e independiente a la Store API: la 'fuente de verdad' contra
     la que comparamos al bot. Devuelve la lista cruda de productos con precio+stock.
@@ -96,7 +151,7 @@ def store_products(cfg, limit=20, query=None):
     params = {
         "limit": str(limit),
         "region_id": cfg["region_id"],
-        "fields": "id,title,status,*variants,+variants.calculated_price,+variants.inventory_quantity",
+        "fields": "id,title,handle,status,*variants,+variants.calculated_price,+variants.inventory_quantity",
     }
     if query:
         params["q"] = query
