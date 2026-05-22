@@ -3,8 +3,9 @@
 .env.local
 *.local
 
-# Claude Code (preferencias locales, no compartir)
+# Claude Code (preferencias locales y artefactos de orquestación, no compartir)
 .claude/settings.local.json
+.claude/goal-queue*.md
 
 # Node
 node_modules/
