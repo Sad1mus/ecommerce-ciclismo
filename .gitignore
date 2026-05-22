@@ -3,6 +3,9 @@
 .env.local
 *.local
 
+# Claude Code (preferencias locales, no compartir)
+.claude/settings.local.json
+
 # Node
 node_modules/
 .next/
