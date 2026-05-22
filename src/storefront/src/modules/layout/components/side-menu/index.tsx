@@ -29,9 +29,15 @@ type SideMenuProps = {
   regions: HttpTypes.StoreRegion[] | null
   locales: Locale[] | null
   currentLocale: string | null
+  categories: HttpTypes.StoreProductCategory[] | null
 }
 
-const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
+const SideMenu = ({
+  regions,
+  locales,
+  currentLocale,
+  categories,
+}: SideMenuProps) => {
   const countryToggleState = useToggleState()
   const languageToggleState = useToggleState()
 
@@ -78,22 +84,48 @@ const SideMenu = ({ regions, locales, currentLocale }: SideMenuProps) => {
                         <XMark />
                       </button>
                     </div>
-                    <ul className="flex flex-col gap-6 items-start justify-start">
-                      {Object.entries(SideMenuItems).map(([name, href]) => {
-                        return (
-                          <li key={name}>
-                            <LocalizedClientLink
-                              href={href}
-                              className="text-3xl leading-10 hover:text-ui-fg-disabled"
-                              onClick={close}
-                              data-testid={`${name.toLowerCase()}-link`}
-                            >
-                              {SideMenuLabels[name] ?? name}
-                            </LocalizedClientLink>
-                          </li>
-                        )
-                      })}
-                    </ul>
+                    <div className="flex flex-col gap-6 overflow-y-auto no-scrollbar">
+                      <ul className="flex flex-col gap-6 items-start justify-start">
+                        {Object.entries(SideMenuItems).map(([name, href]) => {
+                          return (
+                            <li key={name}>
+                              <LocalizedClientLink
+                                href={href}
+                                className="text-3xl leading-10 hover:text-brand-orange"
+                                onClick={close}
+                                data-testid={`${name.toLowerCase()}-link`}
+                              >
+                                {SideMenuLabels[name] ?? name}
+                              </LocalizedClientLink>
+                            </li>
+                          )
+                        })}
+                      </ul>
+                      {!!categories?.length && (
+                        <nav aria-label="Categorías">
+                          <h2 className="font-display uppercase tracking-wide text-brand-orange text-base mb-3">
+                            Categorías
+                          </h2>
+                          <ul
+                            className="flex flex-col gap-2 items-start"
+                            data-testid="side-menu-categories"
+                          >
+                            {categories.map((c) => (
+                              <li key={c.id}>
+                                <LocalizedClientLink
+                                  href={`/categories/${c.handle}`}
+                                  className="text-lg leading-7 hover:text-brand-orange"
+                                  onClick={close}
+                                  data-testid="side-category-link"
+                                >
+                                  {c.name}
+                                </LocalizedClientLink>
+                              </li>
+                            ))}
+                          </ul>
+                        </nav>
+                      )}
+                    </div>
                     <div className="flex flex-col gap-y-6">
                       {!!locales?.length && (
                         <div
