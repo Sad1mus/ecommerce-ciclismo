@@ -144,6 +144,35 @@ def admin_stocked_quantity(cfg, token, query):
     return out
 
 
+def admin_products_by_status(cfg, token, status, limit=200):
+    """Productos REALES en un estado dado (p.ej. 'draft') desde la Admin API.
+
+    Devuelve lista de dicts {title, handle, status}. Sirve para comprobar que los
+    borradores (precio estimado, sin confirmar) NO son comprables en la tienda.
+    """
+    resp = requests.get(
+        f"{cfg['base']}/admin/products",
+        params={"status[]": status, "limit": str(limit), "fields": "id,title,handle,status"},
+        headers={"Authorization": f"Bearer {token}"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json().get("products", [])
+
+
+def store_product_count_by_handle(cfg, handle):
+    """Cuántos productos COMPRABLES (Store API) hay con ese handle. 0 = no comprable."""
+    resp = requests.get(
+        f"{cfg['base']}/store/products",
+        params={"handle": handle, "region_id": cfg["region_id"], "fields": "id,handle"},
+        headers={"x-publishable-api-key": cfg["pk"]},
+        timeout=20,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    return int(data.get("count") or len(data.get("products", [])))
+
+
 def store_products(cfg, limit=20, query=None):
     """Llamada CRUDA e independiente a la Store API: la 'fuente de verdad' contra
     la que comparamos al bot. Devuelve la lista cruda de productos con precio+stock.
