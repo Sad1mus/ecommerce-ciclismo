@@ -33,3 +33,7 @@ drive-download-20250611T144345Z-1-001/
 *.jpeg
 *.png
 *.webp
+
+# Archivos subidos por el File Module local de Medusa (binarios servidos en /static)
+src/medusa/apps/backend/static/
+static/
