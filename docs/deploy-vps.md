@@ -34,8 +34,17 @@ Copiar `.env.example` a `.env` en el VPS y rellenar:
 | `JWT_SECRET`, `COOKIE_SECRET` | secretos de Medusa (obligatorios) |
 | `STORE_CORS`, `ADMIN_CORS`, `AUTH_CORS` | orígenes permitidos (tu dominio) |
 | `MEDUSA_PUBLISHABLE_KEY`, `MEDUSA_REGION_ID` | storefront y bot |
-| `MEDUSA_ADMIN_TOKEN` | bot, comando `/pedidos` |
-| `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY` | bot y voz (Whisper) |
+| `MEDUSA_SALES_CHANNEL_ID` | bot, crear pedidos (canal "Tienda Ciclismo") |
+| `MEDUSA_ADMIN_EMAIL`, `MEDUSA_ADMIN_PASSWORD` | bot, auto-login Admin API (pedidos/operación) |
+| `TELEGRAM_BOT_TOKEN` | bot Telegram |
+| `GROQ_API_KEY` | cerebro conversacional (LLM) + voz (Whisper) |
+| `GROQ_MODEL` | modelo del cerebro = `llama-3.3-70b-versatile` (NO usar 8b: falla tool-calling) |
+
+> NOTA: el bot ahora es **conversacional** (LLM + herramientas; `brain.py`/`tools.py`),
+> no de comandos. Sustituye `OPENAI_API_KEY` por `GROQ_API_KEY`, y `MEDUSA_ADMIN_TOKEN`
+> por `MEDUSA_ADMIN_EMAIL/PASSWORD`. Ver `docs/plan-produccion.md`: gotcha del build del
+> admin de Medusa (`medusa start` exige `index.html`) y control de acceso del bot por
+> `chat_id` antes de exponerlo.
 
 ## Pasos
 
