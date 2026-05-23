@@ -1,8 +1,10 @@
 """Pipeline de voz: audio -> texto (Whisper) -> comando -> respuesta.
 
 El transcriptor (STT) esta detras del protocolo `Transcriber`, asi en los tests
-se inyecta un transcriptor falso y NO se necesita OPENAI_API_KEY ni modelos
-reales. En produccion se usa WhisperTranscriber (Whisper via API de OpenAI).
+se inyecta un transcriptor falso y NO se necesita ninguna API key ni modelos
+reales. En produccion el STT por defecto es Groq (Whisper large-v3, capa
+gratuita y compatible con la API de OpenAI); si solo hay OPENAI_API_KEY se usa
+Whisper via OpenAI. Ver `build_transcriber()`.
 
 ANTI-ALUCINACION: si la transcripcion falla, NO se adivina el comando; se
 responde un mensaje claro. Los datos de la respuesta salen siempre de Medusa
@@ -74,25 +76,61 @@ class VoicePipeline:
         return COMANDO_DESCONOCIDO
 
 
-class WhisperTranscriber:
-    """STT real con Whisper (API de OpenAI). Import diferido; no se usa en tests.
+class _OpenAICompatTranscriber:
+    """Base STT contra cualquier endpoint compatible con la API de OpenAI.
 
-    Requiere OPENAI_API_KEY en el entorno (nunca en el repo).
+    Groq y OpenAI comparten el mismo SDK; solo cambian base_url, modelo y la
+    variable de entorno con la clave. Import diferido: no se usa en tests.
     """
 
-    def __init__(self, model: str = "whisper-1") -> None:
-        self.model = model
+    env_var = "OPENAI_API_KEY"
+    base_url: str | None = None
+    default_model = "whisper-1"
+
+    def __init__(self, model: str | None = None) -> None:
+        self.model = model or self.default_model
 
     def transcribe(self, audio: bytes) -> str:  # pragma: no cover - requiere red/clave
-        api_key = os.getenv("OPENAI_API_KEY")
+        api_key = os.getenv(self.env_var)
         if not api_key:
-            raise RuntimeError("Falta OPENAI_API_KEY para Whisper.")
+            raise RuntimeError(f"Falta {self.env_var} para el STT.")
         from openai import OpenAI  # import diferido
-
-        client = OpenAI(api_key=api_key)
         import io
 
+        client = OpenAI(api_key=api_key, base_url=self.base_url)
         buf = io.BytesIO(audio)
         buf.name = "audio.ogg"
         resp = client.audio.transcriptions.create(model=self.model, file=buf)
         return resp.text
+
+
+class GroqTranscriber(_OpenAICompatTranscriber):
+    """STT por defecto: Whisper large-v3 en Groq (capa gratuita).
+
+    Requiere GROQ_API_KEY en el entorno (nunca en el repo; ver .env).
+    """
+
+    env_var = "GROQ_API_KEY"
+    base_url = "https://api.groq.com/openai/v1"
+    default_model = "whisper-large-v3"
+
+
+class WhisperTranscriber(_OpenAICompatTranscriber):
+    """STT con Whisper via API de OpenAI. Requiere OPENAI_API_KEY."""
+
+    env_var = "OPENAI_API_KEY"
+    base_url = None
+    default_model = "whisper-1"
+
+
+def build_transcriber() -> Transcriber:
+    """Elige el STT segun las claves disponibles: Groq (preferido) u OpenAI.
+
+    No falla si faltan claves: devuelve el transcriptor preferido y este lanza
+    un error claro recien al transcribir (lo captura VoicePipeline.process).
+    """
+    if os.getenv("GROQ_API_KEY"):
+        return GroqTranscriber()
+    if os.getenv("OPENAI_API_KEY"):
+        return WhisperTranscriber()
+    return GroqTranscriber()  # default; avisa al primer uso si falta la clave

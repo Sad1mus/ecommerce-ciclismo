@@ -16,6 +16,17 @@ LOGDIR="$ROOT/.devlogs"; mkdir -p "$LOGDIR"
 # Carga .env local (PK, region, credenciales admin del E2E) si existe.
 if [ -f .env ]; then set -a; . ./.env; set +a; fi
 
+# Evita que el equipo se suspenda durante la demo. Reversible: scripts/demo-down.sh
+# o kill del PID en .devlogs/keepawake.pid. No cambia ajustes persistentes.
+if command -v systemd-inhibit >/dev/null 2>&1 \
+   && ! pgrep -f "systemd-inhibit.*ciclismo-demo" >/dev/null 2>&1; then
+  setsid systemd-inhibit --what=sleep:idle --who="ciclismo-demo" \
+    --why="Demo ecommerce en curso" --mode=block sleep infinity \
+    >/dev/null 2>&1 < /dev/null &
+  echo $! >"$LOGDIR/keepawake.pid"
+  echo ">> keep-awake activado (no se suspendera mientras corra la demo)"
+fi
+
 http_code() { curl -s -o /dev/null -w '%{http_code}' --max-time 5 "$1" 2>/dev/null || echo 000; }
 
 wait_http() { # url name max_intentos codigos_ok...
@@ -47,11 +58,12 @@ echo ">> 2/4  Medusa (:9001)"
 if [ "$(http_code http://localhost:9001/health)" = "200" ]; then
   echo "  ya está arriba"
 else
+  # 'medusa develop' (no 'start'): start exige el admin build (index.html) y aquí
+  # falla; develop sirve el admin al vuelo. PORT=9001 explícito (default sería 9000).
   ( cd src/medusa/apps/backend
-    [ -d .medusa/server ] || npx medusa build
-    nohup npx medusa start >"$LOGDIR/medusa.log" 2>&1 &
+    PORT=9001 nohup npx medusa develop >"$LOGDIR/medusa.log" 2>&1 &
     echo $! >"$LOGDIR/medusa.pid" )
-  wait_http http://localhost:9001/health Medusa 90 200
+  wait_http http://localhost:9001/health Medusa 120 200
 fi
 
 echo ">> 3/4  Storefront (:8000)"
@@ -69,10 +81,20 @@ fi
 
 echo ">> 4/4  Bot -> Medusa (conectividad real, sin mocks)"
 if [ -n "${TELEGRAM_BOT_TOKEN:-}" ]; then
-  ( cd src/bot
-    nohup ./.venv/bin/python bot.py >"$LOGDIR/bot.log" 2>&1 &
-    echo $! >"$LOGDIR/bot.pid" )
-  echo "  bot lanzado (TELEGRAM_BOT_TOKEN presente) — log en .devlogs/bot.log"
+  # Idempotente: Telegram solo permite UN getUpdates; no relanzar si ya corre
+  # (un segundo bot daría "Conflict: terminated by other getUpdates request").
+  if pgrep -f "[p]ython bot.py" >/dev/null 2>&1; then
+    echo "  bot ya está corriendo (no relanzo)"
+  else
+    ( cd src/bot
+      # El .venv puede venir sin deps: instalar si falta python-telegram-bot.
+      [ -x .venv/bin/python ] || python3 -m venv .venv
+      .venv/bin/python -c "import telegram" 2>/dev/null \
+        || .venv/bin/pip install -q -r requirements.txt
+      nohup ./.venv/bin/python bot.py >"$LOGDIR/bot.log" 2>&1 &
+      echo $! >"$LOGDIR/bot.pid" )
+    echo "  bot lanzado (TELEGRAM_BOT_TOKEN presente) — log en .devlogs/bot.log"
+  fi
 else
   echo "  sin TELEGRAM_BOT_TOKEN: no se arranca el daemon. Verifico que el bot"
   echo "  alcanza el Medusa real y lee datos (no inventa):"
