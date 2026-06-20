@@ -8,25 +8,29 @@ tienda visual normal.
 > Filosofía: **adaptamos el software a él, no al revés.** Su forma de etiquetar
 > el inventario es la verdad; el sistema se acomoda para minimizar fricción.
 
-## Estado: Fase 0 (en curso)
+## Estado: Fases 0–2 cerradas · Fase 3 (voz + agentes) en curso
 
 Enfoque **lean**: construimos el producto directo (sin la "fábrica" JARVIS/
 LiteLLM/Ollama por ahora). Esa capa se puede añadir luego para abaratar costos.
+El producto está construido y verificado localmente (tienda + bot
+conversacional); lo que falta para el servidor real vive en
+`docs/plan-produccion.md`.
 
 | Fase | Qué entrega | Estado |
 |------|-------------|--------|
-| 0 | Repo + Docker (Postgres+Redis) + inventario normalizado + MedusaJS | 🔧 en curso |
-| 1 | Storefront Next.js accesible (catálogo visual) | ⏳ |
-| 2 | Bot Telegram texto: /stock, /precio, /pedidos (anti-alucinación) | ⏳ |
-| 3 | Voz (Whisper) + agentes ventas/logística/reportes | ⏳ |
-| 4 | Pagos Wompi/ePayco | ⏳ |
+| 0 | Repo + Docker (Postgres+Redis) + inventario normalizado + MedusaJS | ✅ |
+| 1 | Storefront Next.js accesible (catálogo visual, español/COP) | ✅ |
+| 2 | Bot Telegram conversacional (Groq/Llama tool-calling, anti-alucinación) | ✅ |
+| 3 | Voz (Whisper vía Groq) + agentes ventas/logística/reportes | 🔧 en curso |
+| 4 | Pagos Wompi/ePayco | ⏳ módulos listos, sin activar |
 | 5 | Deploy Docker en VPS + monitor | ⏳ |
 
 ## Regla de oro: anti-alucinación
 
 Stock y precios salen **siempre** de la base de datos (MedusaJS/Postgres),
 **nunca** de un LLM. El LLM solo interpreta lenguaje natural; los datos son la
-fuente única de verdad.
+fuente única de verdad. Verificado con tests E2E
+(`src/bot/test_anti_alucinacion.py`, `src/bot/test_e2e_storefront_bot.py`).
 
 ## Inventario
 
@@ -35,6 +39,9 @@ fuente única de verdad.
   con variantes por color/talla).
 - `data/price_fixes.csv` → correcciones editables de precio para las variantes
   que venían en $0 (4 recuperadas del nombre, 28 estimadas a confirmar).
+- Pendientes del dueño (no de código): **59 productos sin categoría asignada** y
+  **28 precios estimados** siguen como borrador (no comprables) hasta que el dueño
+  los confirme. Detalle en `docs/pendientes-dueno.md`.
 
 Re-generar inventario tras cambiar el CSV o los precios:
 
@@ -63,6 +70,7 @@ Fof/
 ├── src/
 │   ├── medusa/             # backend ecommerce (Fase 0)
 │   ├── storefront/         # Next.js (Fase 1)
-│   └── bot/                # Telegram (Fase 2)
+│   ├── bot/                # Telegram conversacional + voz (Fases 2-3)
+│   └── payments/           # Wompi/ePayco (Fase 4, sandbox / sin activar)
 └── *.md / *.docx           # documentos de arquitectura (JARVIS, ciclismo)
 ```
