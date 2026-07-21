@@ -1,3 +1,4 @@
 requests>=2.31
 python-telegram-bot>=21.0
 openai>=1.30
+redis>=5.0

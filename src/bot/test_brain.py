@@ -74,10 +74,10 @@ def test_memoria_y_reset_por_chat():
     brain = Brain(llm, FakeClient())
     brain.handle("c", "primero")
     brain.handle("c", "segundo")
-    # El historial acumula: system + 2 user + 2 assistant = 5
-    assert len(brain._histories["c"]) == 5
+    # El historial acumula (via store): system + 2 user + 2 assistant = 5
+    assert len(brain.store.load("c")) == 5
     brain.reset("c")
-    assert "c" not in brain._histories
+    assert brain.store.load("c") is None
 
 
 def test_tope_de_rondas_de_tool_no_cuelga():
@@ -85,3 +85,52 @@ def test_tope_de_rondas_de_tool_no_cuelga():
     llm = FakeLLM([msg_tool_call("consultar_producto", {"consulta": "x"})] * 20)
     out = Brain(llm, FakeClient(productos=PRODS)).handle("c", "loop")
     assert "no pude completar" in out.lower()
+
+
+def _detalle_pedido(numero=1001):
+    return OrderDetail(
+        id=f"o{numero}", display_id=numero, status="pending", payment_status="captured",
+        fulfillment_status="not_fulfilled", total=29000, currency="COP",
+        items=[OrderLine(title="Candado espiral", quantity=2)], metadata={},
+    )
+
+
+def test_auditoria_registra_escritura_no_lectura(caplog):
+    import logging
+
+    # Escritura (facturar confirmado) -> debe dejar rastro en el logger bot.audit.
+    llm = FakeLLM([
+        msg_tool_call("facturar_pedido", {"numero": 1001, "confirmado": True}),
+        msg_texto("Facturado."),
+    ])
+    brain = Brain(llm, FakeClient(detalles={1001: _detalle_pedido()}))
+    with caplog.at_level(logging.INFO, logger="bot.audit"):
+        brain.handle("chat9", "factura el 1001")
+    registros = [r for r in caplog.records if r.name == "bot.audit"]
+    assert registros, "una operacion de escritura debe auditarse"
+    msg = registros[0].getMessage()
+    assert "chat9" in msg and "facturar_pedido" in msg
+
+    # Lectura (consultar_producto) -> NO debe generar auditoria.
+    caplog.clear()
+    llm2 = FakeLLM([
+        msg_tool_call("consultar_producto", {"consulta": "candado"}),
+        msg_texto("Hay stock."),
+    ])
+    brain2 = Brain(llm2, FakeClient(productos=PRODS))
+    with caplog.at_level(logging.INFO, logger="bot.audit"):
+        brain2.handle("chat9", "cuantos candados hay")
+    assert [r for r in caplog.records if r.name == "bot.audit"] == []
+
+
+def test_rate_limit_corta_antes_de_llamar_al_llm():
+    from ratelimit import RateLimiter
+
+    llm = FakeLLM([msg_texto("uno"), msg_texto("dos")])
+    # Cupo 1 por ventana: el segundo mensaje se corta SIN consumir al LLM.
+    brain = Brain(llm, FakeClient(), limiter=RateLimiter(max_calls=1, window_seconds=60, clock=lambda: 1000.0))
+    primero = brain.handle("c", "hola")
+    segundo = brain.handle("c", "otra vez")
+    assert primero == "uno"
+    assert "muchos mensajes" in segundo.lower()
+    assert len(llm.calls) == 1  # el LLM solo se llamo una vez (el 2do no lo toco)

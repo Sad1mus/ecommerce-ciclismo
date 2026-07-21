@@ -312,6 +312,13 @@ REGISTRY: Dict[str, Callable[..., str]] = {
     "marcar_transportadora": marcar_transportadora,
 }
 
+# Herramientas que MUTAN el negocio (para la auditoria de operaciones). No incluye
+# plantilla_empaque, que es solo lectura. La mutacion real solo ocurre con
+# confirmado=True, pero auditamos toda invocacion de estas para tener rastro.
+WRITE_TOOLS = frozenset(
+    {"crear_pedido", "confirmar_pedido", "facturar_pedido", "marcar_transportadora"}
+)
+
 TOOLS_SPEC = [
     {
         "type": "function",

@@ -14,6 +14,9 @@ if [[ ! -f .env ]]; then
   exit 1
 fi
 
+echo ">> Validando secretos de produccion (sin placeholders por defecto)..."
+python3 scripts/check_secrets.py .env
+
 echo ">> Validando configuracion de compose..."
 docker compose -f "$COMPOSE_FILE" config -q
 
