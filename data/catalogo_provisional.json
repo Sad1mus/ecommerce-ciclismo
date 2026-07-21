@@ -1,0 +1,648 @@
+{
+  "generado_por": "data/clasificar_pendientes.py",
+  "advertencia": "BEST-EFFORT consciente. Categorias derivadas por contexto (no confirmadas por el dueño); precios estimados quedan NO comprables. Requiere un update de inventario y la confirmacion del dueño.",
+  "categorias_derivadas": [
+    {
+      "product_id": "TRF07",
+      "name": "FILTRO TAPABOCAS PLAST",
+      "codigo_interno": "1-RK",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "LK055",
+      "name": "Paral lateral alum R26-29",
+      "codigo_interno": "1-RK",
+      "tipo_asignado": "Soportes y portacelular",
+      "confianza": "alta",
+      "motivo": "paral lateral = pata de apoyo (kickstand)"
+    },
+    {
+      "product_id": "P2032",
+      "name": "Pila multi dispositivos",
+      "codigo_interno": "1-RK",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "ABR6BK",
+      "name": "Abrazadera velcro pgup",
+      "codigo_interno": "2-SPK",
+      "tipo_asignado": "Sillines y tijas",
+      "confianza": "baja",
+      "motivo": "abrazadera de sillin/tija (clamp), a confirmar"
+    },
+    {
+      "product_id": "ABR012",
+      "name": "Abrazadera alum 35mm Colores",
+      "codigo_interno": "3-RR",
+      "tipo_asignado": "Sillines y tijas",
+      "confianza": "baja",
+      "motivo": "abrazadera de sillin/tija (clamp), a confirmar"
+    },
+    {
+      "product_id": "ABR010",
+      "name": "Abrazadera alum 35mm Dor",
+      "codigo_interno": "3-RR",
+      "tipo_asignado": "Sillines y tijas",
+      "confianza": "baja",
+      "motivo": "abrazadera de sillin/tija (clamp), a confirmar"
+    },
+    {
+      "product_id": "ESP011",
+      "name": "Espaciador Tornasol",
+      "codigo_interno": "3-RR",
+      "tipo_asignado": "Manubrios y potencias",
+      "confianza": "alta",
+      "motivo": "espaciador de direccion (va en la espiga/steerer)"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "Espiga rebeld",
+      "codigo_interno": "3-RR",
+      "tipo_asignado": "Manubrios y potencias",
+      "confianza": "media",
+      "motivo": "espiga de direccion"
+    },
+    {
+      "product_id": "TP003",
+      "name": "Filtro Pmascaras antip",
+      "codigo_interno": "4-BK",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "MJ003",
+      "name": "Tapabocas antipolucion",
+      "codigo_interno": "4-BK",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK161",
+      "name": "Accesorio para instalacion multiproposito",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK384",
+      "name": "Bicicleta colecionable exhibicion",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK385",
+      "name": "Bicicleta mini exhibicion con reloj",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK544",
+      "name": "Bicicleta mini exhibicion playera",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK260-1",
+      "name": "Capa PBici hiper",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK520",
+      "name": "Capa PBici hiper",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK260-2",
+      "name": "Capa PBici hiper elast",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK775",
+      "name": "Espaciador alum colores",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": "Manubrios y potencias",
+      "confianza": "alta",
+      "motivo": "espaciador de direccion (va en la espiga/steerer)"
+    },
+    {
+      "product_id": "BCK774",
+      "name": "Espaciador alum colores",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": "Manubrios y potencias",
+      "confianza": "alta",
+      "motivo": "espaciador de direccion (va en la espiga/steerer)"
+    },
+    {
+      "product_id": "BCK452",
+      "name": "Llavero Pbici reflectivo",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK549",
+      "name": "Llavero bici antiguo",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK547",
+      "name": "Llaveros Pbici clasicos 1",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK548",
+      "name": "Llaveros Pbici clasicos 2",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK684",
+      "name": "Paral lateral graduacion mtb",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": "Soportes y portacelular",
+      "confianza": "alta",
+      "motivo": "paral lateral = pata de apoyo (kickstand)"
+    },
+    {
+      "product_id": "BCK798",
+      "name": "Paral lateral graduacion mtb",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": "Soportes y portacelular",
+      "confianza": "alta",
+      "motivo": "paral lateral = pata de apoyo (kickstand)"
+    },
+    {
+      "product_id": "BCK790-12",
+      "name": "Pets Pbici colores N°12",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK790-15",
+      "name": "Pets Pbici colores N°15",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK445",
+      "name": "Stickers reflectivos Enlee bici",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": null,
+      "confianza": "revisar",
+      "motivo": "sin señal clara en el nombre; requiere decision del dueño"
+    },
+    {
+      "product_id": "BCK403",
+      "name": "Tornillos lujo alum colores",
+      "codigo_interno": "6-CL",
+      "tipo_asignado": "Kits y herramientas",
+      "confianza": "media",
+      "motivo": "tornilleria / herrajes"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "1 Gris",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "10 Naranja",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "11 Fucsia",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "13 Blanco",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "14 Amarillo pollito",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "15 Rosado",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "16 Violeta",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "17 Azul futura",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "18 Verde menta",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "19 Verde griego",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "2 Amarillo bandera",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "20 Verde falabella",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "21 Verde militar",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "22 Magenta",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "23 Verde oscuro",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "24 Psicodelico",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "25 Uva",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "26 Bronce",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "3 Azul oscuro",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "4 negro",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "5 Dorado",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "6 amarillo neón",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "7 Morado",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "8 Azul claro",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "9 Rojo",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "Presentacion cubierta para funda 1 Precio",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "SIN_ID",
+      "name": "Presentacion cubierta para funda 2",
+      "codigo_interno": "PITILLOS",
+      "tipo_asignado": "Llantas, rines y aros",
+      "confianza": "baja",
+      "motivo": "pitillos de rueda por color (codigo PITILLOS), a confirmar"
+    },
+    {
+      "product_id": "BCK774-1",
+      "name": "Espaciador Tornasol",
+      "codigo_interno": "PREVENTA 2025",
+      "tipo_asignado": "Manubrios y potencias",
+      "confianza": "alta",
+      "motivo": "espaciador de direccion (va en la espiga/steerer)"
+    },
+    {
+      "product_id": "BCK698",
+      "name": "Abrazadera alum tornasol",
+      "codigo_interno": "PRODUTOS TORNASOL",
+      "tipo_asignado": "Sillines y tijas",
+      "confianza": "baja",
+      "motivo": "abrazadera de sillin/tija (clamp), a confirmar"
+    },
+    {
+      "product_id": "BCK402",
+      "name": "Tornillos lujo alum tornasol",
+      "codigo_interno": "PRODUTOS TORNASOL",
+      "tipo_asignado": "Kits y herramientas",
+      "confianza": "media",
+      "motivo": "tornilleria / herrajes"
+    }
+  ],
+  "precios_estimados_borrador": [
+    {
+      "match_nombre": "Pitillos",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "accesorio pequeno por color - CONFIRMAR"
+    },
+    {
+      "match_nombre": "1 Gris",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "2 Amarillo",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "3 Azul",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "4 negro",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "5 Dorado",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "6 amarillo",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "7 Morado",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "8 Azul claro",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "9 Rojo",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "10 Naranja",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "11 Fucsia",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "12 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "13 Blanco",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "14 Amarillo",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "15 Rosado",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "16 Violeta",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "17 Azul",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "18 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "19 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "20 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "21 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "22 Magenta",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "23 Verde",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "24 Psicodelico",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "25 Uva",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "26 Bronce",
+      "precio_estimado_cop": 4500,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "color de Pitillos - CONFIRMAR"
+    },
+    {
+      "match_nombre": "Espiga rebeld",
+      "precio_estimado_cop": 18000,
+      "accion": "borrador (status=draft en Medusa, NO comprable)",
+      "nota": "espiga/direccion - CONFIRMAR"
+    }
+  ]
+}
