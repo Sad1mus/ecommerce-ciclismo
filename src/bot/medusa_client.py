@@ -25,6 +25,7 @@ class ProductInfo:
     currency: str
     stock: int | None
     variant_id: str = ""
+    variant_count: int = 1  # cuantas variantes tiene el producto (color/talla)
 
 
 @dataclass
@@ -131,7 +132,8 @@ class MedusaClient:
         resp.raise_for_status()
         result: List[ProductInfo] = []
         for p in resp.json().get("products", []):
-            v = (p.get("variants") or [{}])[0]
+            variants = p.get("variants") or []
+            v = variants[0] if variants else {}
             cp = v.get("calculated_price") or {}
             amount = cp.get("calculated_amount")
             result.append(
@@ -144,6 +146,7 @@ class MedusaClient:
                     if isinstance(v.get("inventory_quantity"), int)
                     else None,
                     variant_id=v.get("id") or "",
+                    variant_count=len(variants),
                 )
             )
         return result
@@ -250,36 +253,46 @@ class MedusaClient:
             )
         return result
 
-    def get_order(self, display_id: int, search_limit: int = 50) -> OrderDetail | None:
+    def get_order(self, display_id: int, max_search: int = 2000, page: int = 100) -> OrderDetail | None:
         """Detalle REAL de un pedido por su numero visible (display_id).
 
-        Busca entre los pedidos recientes y devuelve None si no aparece (no inventa).
+        Pagina la Admin API hasta encontrar el display_id (NO solo entre los mas
+        recientes) y devuelve None si no existe (no inventa). Antes miraba solo los
+        50 pedidos recientes: pasando 50 pedidos, cualquier pedido viejo se volvia
+        "no encontrado" en silencio (consultar/confirmar/facturar/despachar). `max_search`
+        acota el barrido para no recorrer indefinidamente si el numero no existe.
         """
-        resp = self._admin_request(
-            "GET", "/admin/orders",
-            params={
-                "limit": str(search_limit),
-                "fields": "id,display_id,status,payment_status,fulfillment_status,"
-                          "total,currency_code,metadata,items.title,items.quantity",
-            },
+        fields = (
+            "id,display_id,status,payment_status,fulfillment_status,"
+            "total,currency_code,metadata,items.title,items.quantity"
         )
-        for o in resp.json().get("orders", []):
-            if o.get("display_id") == display_id:
-                items = [
-                    OrderLine(title=it.get("title", ""), quantity=int(it.get("quantity") or 0))
-                    for it in (o.get("items") or [])
-                ]
-                return OrderDetail(
-                    id=o.get("id", ""),
-                    display_id=o.get("display_id"),
-                    status=o.get("status", ""),
-                    payment_status=o.get("payment_status", ""),
-                    fulfillment_status=o.get("fulfillment_status", ""),
-                    total=self._to_int(o.get("total")),
-                    currency=(o.get("currency_code") or "cop").upper(),
-                    items=items,
-                    metadata=o.get("metadata") or {},
-                )
+        offset = 0
+        while offset < max_search:
+            resp = self._admin_request(
+                "GET", "/admin/orders",
+                params={"limit": str(page), "offset": str(offset), "fields": fields},
+            )
+            orders = resp.json().get("orders", [])
+            for o in orders:
+                if o.get("display_id") == display_id:
+                    items = [
+                        OrderLine(title=it.get("title", ""), quantity=int(it.get("quantity") or 0))
+                        for it in (o.get("items") or [])
+                    ]
+                    return OrderDetail(
+                        id=o.get("id", ""),
+                        display_id=o.get("display_id"),
+                        status=o.get("status", ""),
+                        payment_status=o.get("payment_status", ""),
+                        fulfillment_status=o.get("fulfillment_status", ""),
+                        total=self._to_int(o.get("total")),
+                        currency=(o.get("currency_code") or "cop").upper(),
+                        items=items,
+                        metadata=o.get("metadata") or {},
+                    )
+            if len(orders) < page:
+                break  # ultima pagina: no hay mas pedidos que revisar
+            offset += page
         return None
 
     # ---- Operaciones de escritura (las invoca el agente tras confirmacion) ----

@@ -35,6 +35,34 @@ def test_crear_pedido_sin_resultados_no_muta():
     assert "Sin resultados" in out and c.escrituras == []
 
 
+def test_crear_pedido_sin_stock_suficiente_no_muta():
+    # Anti-sobreventa: piden 5 pero solo hay 8... esta ok; probamos el caso corto.
+    prods = [ProductInfo(title="Candado espiral", sku="CL1", price=14500, currency="COP", stock=2, variant_id="var_1")]
+    c = FakeClient(productos=prods)
+    out = tools.crear_pedido(c, "candado", cantidad=5, confirmado=True)
+    assert "No cree el pedido" in out and "2" in out
+    assert c.escrituras == []  # no sobrevende
+
+
+def test_crear_pedido_stock_desconocido_no_bloquea():
+    # Si el stock es None (sin dato), no bloqueamos: Medusa validara al crear.
+    prods = [ProductInfo(title="Bomba mini", sku="B1", price=18500, currency="COP", stock=None, variant_id="var_2")]
+    c = FakeClient(productos=prods)
+    out = tools.crear_pedido(c, "bomba", cantidad=3, confirmado=True)
+    assert "creado" in out.lower() and c.escrituras
+
+
+def test_crear_pedido_multivariante_avisa_cual_variante():
+    # Con varias presentaciones, la confirmacion debe avisar que elige una (no en silencio).
+    prods = [ProductInfo(title="Casco MTB", sku="C-ROJO-M", price=80000, currency="COP",
+                         stock=10, variant_id="var_3", variant_count=4)]
+    c = FakeClient(productos=prods)
+    out = tools.crear_pedido(c, "casco", cantidad=1)  # sin confirmar
+    assert "CONFIRMACION" in out
+    assert "presentaciones" in out and "C-ROJO-M" in out
+    assert c.escrituras == []
+
+
 # ---- facturar ----
 def test_facturar_sin_confirmar_no_muta():
     c = FakeClient(detalles={1001: _detalle()})

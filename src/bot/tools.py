@@ -173,9 +173,26 @@ def crear_pedido(client: MedusaClient, producto: str, cantidad: int = 1, confirm
     p = prods[0]
     if not p.variant_id:
         return f"No pude identificar una variante de '{p.title}' para el pedido."
+    # Anti-sobreventa: si conocemos el stock y no alcanza, NO creamos el pedido.
+    # (Si el stock es desconocido no bloqueamos: Medusa lo validara al crear.)
+    if p.stock is not None and p.stock < cantidad:
+        disp = "agotado" if p.stock <= 0 else f"solo {p.stock} disponibles"
+        return (
+            f"No cree el pedido: de '{p.title}' hay {disp} y pediste {cantidad}. "
+            "Ajusta la cantidad o confirma que aun asi lo quieres."
+        )
     if not confirmado:
+        aviso = ""
+        if p.variant_count > 1:
+            # No elegimos la variante en silencio: avisamos cual va (SKU) para que el
+            # dueño confirme a conciencia y pida otra presentacion si hace falta.
+            ref = p.sku or "principal"
+            aviso = (
+                f" Ojo: '{p.title}' tiene {p.variant_count} presentaciones "
+                f"(color o talla); voy a pedir la variante {ref}. Si necesitas otra, dime cual."
+            )
         return _confirmacion(
-            f"crear un pedido de {cantidad} x {p.title} a {format_cop(p.price, p.currency)} cada uno."
+            f"crear un pedido de {cantidad} x {p.title} a {format_cop(p.price, p.currency)} cada uno." + aviso
         )
     try:
         det = client.create_order([{"variant_id": p.variant_id, "quantity": cantidad}])
