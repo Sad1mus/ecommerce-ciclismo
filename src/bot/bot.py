@@ -22,7 +22,7 @@ import os
 import handlers
 from agents import LogisticaAgent, ReportesAgent, VentasAgent
 from auth import DENEGADO, is_allowed, load_allowlist, log_startup_state
-from brain import Brain, GroqLLM
+from brain import Brain, build_llm
 from history import build_history_store
 from medusa_client import MedusaClient
 from ratelimit import build_rate_limiter
@@ -63,7 +63,7 @@ def main() -> None:
     reportes = ReportesAgent(client)
     transcriber = build_transcriber()      # oidos: Whisper via Groq
     brain = Brain(                         # cerebro: LLM con herramientas
-        GroqLLM(),
+        build_llm(),                       # Groq y/o OpenRouter (multi-proveedor con fallback)
         client,
         store=build_history_store(),       # historial en Redis (sobrevive reinicios)
         limiter=build_rate_limiter(),      # protege el cupo del LLM ante spam

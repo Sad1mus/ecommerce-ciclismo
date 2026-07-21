@@ -34,6 +34,9 @@ MAX_TOOL_ROUNDS = 5
 # cupo diario de Groq. 12 da contexto suficiente para una conversacion operativa.
 MAX_HISTORY_MSGS = 12  # ademas del system prompt
 DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
+# OpenRouter da acceso a muchos modelos; el default espeja al 70B (tool-calling fiable).
+# DEBE soportar function-calling (el 8b de Groq NO sirve; ojo al elegir en OpenRouter).
+DEFAULT_OPENROUTER_MODEL = "meta-llama/llama-3.3-70b-instruct"
 LLM_RETRIES = 3  # reintentos ante errores transitorios (rate limit, red)
 
 SYSTEM_PROMPT = (
@@ -66,19 +69,29 @@ class LLM(Protocol):
         ...
 
 
-class GroqLLM:
-    """LLM real: Llama via API de Groq (compatible con OpenAI). Import diferido."""
+class OpenAICompatLLM:
+    """LLM real sobre cualquier API compatible con OpenAI (Groq, OpenRouter, ...).
 
-    def __init__(self, model: str | None = None) -> None:
-        self.model = model or os.getenv("GROQ_MODEL", DEFAULT_GROQ_MODEL)
+    Groq y OpenRouter hablan el mismo protocolo; solo cambian base_url, la variable
+    de la clave y el modelo. El import de `openai` es DIFERIDO (los tests no lo usan).
+    """
+
+    def __init__(self, *, name: str, api_key_env: str, base_url: str, model: str) -> None:
+        self.name = name
+        self.api_key_env = api_key_env
+        self.base_url = base_url
+        self.model = model
+
+    def _api_key(self) -> str:
+        key = os.getenv(self.api_key_env)
+        if not key:
+            raise RuntimeError(f"Falta {self.api_key_env} para el proveedor {self.name}.")
+        return key
 
     def chat(self, messages: List[dict], tools: List[dict]) -> dict:  # pragma: no cover - red/clave
-        api_key = os.getenv("GROQ_API_KEY")
-        if not api_key:
-            raise RuntimeError("Falta GROQ_API_KEY para el cerebro del bot.")
         from openai import OpenAI
 
-        client = OpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1")
+        client = OpenAI(api_key=self._api_key(), base_url=self.base_url)
         # Reintento ante errores transitorios (rate limit del free tier, red, 5xx).
         ultimo_error: Exception | None = None
         resp = None
@@ -95,14 +108,14 @@ class GroqLLM:
             except Exception as e:  # noqa: BLE001 - reintentamos cualquier fallo de API
                 ultimo_error = e
                 nombre = type(e).__name__
-                # Errores no recuperables: no insistir.
+                # Errores no recuperables: no insistir (dejar que el fallback actue).
                 if "AuthenticationError" in nombre or "BadRequestError" in nombre:
                     raise
                 espera = 2 * (intento + 1)
-                logger.warning("Groq fallo (%s), reintento %d/%d en %ds", nombre, intento + 1, LLM_RETRIES, espera)
+                logger.warning("%s fallo (%s), reintento %d/%d en %ds", self.name, nombre, intento + 1, LLM_RETRIES, espera)
                 time.sleep(espera)
         if resp is None:
-            raise ultimo_error if ultimo_error else RuntimeError("Groq no respondio.")
+            raise ultimo_error if ultimo_error else RuntimeError(f"{self.name} no respondio.")
         m = resp.choices[0].message
         out: dict = {"role": "assistant", "content": m.content or ""}
         if getattr(m, "tool_calls", None):
@@ -116,6 +129,72 @@ class GroqLLM:
             ]
             out["content"] = m.content or ""  # OpenAI exige content (puede ser "")
         return out
+
+
+class GroqLLM(OpenAICompatLLM):
+    """Llama via API de Groq (compatible con OpenAI). Capa gratuita con cupo diario."""
+
+    def __init__(self, model: str | None = None) -> None:
+        super().__init__(
+            name="groq",
+            api_key_env="GROQ_API_KEY",
+            base_url="https://api.groq.com/openai/v1",
+            model=model or os.getenv("GROQ_MODEL", DEFAULT_GROQ_MODEL),
+        )
+
+
+class OpenRouterLLM(OpenAICompatLLM):
+    """Modelos via OpenRouter (compatible con OpenAI). Mejor opcion / fallback de Groq."""
+
+    def __init__(self, model: str | None = None) -> None:
+        super().__init__(
+            name="openrouter",
+            api_key_env="OPENROUTER_KEY",
+            base_url="https://openrouter.ai/api/v1",
+            model=model or os.getenv("OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL),
+        )
+
+
+class FallbackLLM:
+    """Envuelve dos proveedores: si el primario falla (cae o agota cupo), usa el secundario.
+
+    Anti-alucinacion: el fallback NO inventa; solo cambia de proveedor para la MISMA
+    consulta con las MISMAS herramientas.
+    """
+
+    def __init__(self, primary: LLM, secondary: LLM) -> None:
+        self.primary = primary
+        self.secondary = secondary
+        self.name = f"{getattr(primary, 'name', '?')}+{getattr(secondary, 'name', '?')}"
+
+    def chat(self, messages: List[dict], tools: List[dict]) -> dict:
+        try:
+            return self.primary.chat(messages, tools)
+        except Exception as e:  # noqa: BLE001 - primario caido/sin cupo: probar el secundario
+            logger.warning(
+                "Proveedor primario %s fallo (%s); uso el secundario %s",
+                getattr(self.primary, "name", "?"), type(e).__name__, getattr(self.secondary, "name", "?"),
+            )
+            return self.secondary.chat(messages, tools)
+
+
+def build_llm(env: dict | None = None) -> LLM:
+    """Construye el cerebro segun el entorno.
+
+    LLM_PROVIDER selecciona el primario (groq|openrouter; default groq). Si la clave
+    del OTRO proveedor esta presente, se arma un FallbackLLM para tolerar caidas/cupo.
+    """
+    env = env if env is not None else os.environ
+    provider = (env.get("LLM_PROVIDER") or "groq").strip().lower()
+    builders = {"groq": GroqLLM, "openrouter": OpenRouterLLM}
+    primary_cls = builders.get(provider, GroqLLM)
+    primary = primary_cls()
+
+    other = "openrouter" if primary.name != "openrouter" else "groq"
+    other_key_env = "OPENROUTER_KEY" if other == "openrouter" else "GROQ_API_KEY"
+    if env.get(other_key_env):
+        return FallbackLLM(primary, builders[other]())
+    return primary
 
 
 class Brain:
